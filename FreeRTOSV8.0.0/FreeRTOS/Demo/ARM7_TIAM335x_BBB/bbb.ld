@@ -1,4 +1,4 @@
-/* BBB linker script */
+/*  BBB linker script */
 
 
 MEMORY
