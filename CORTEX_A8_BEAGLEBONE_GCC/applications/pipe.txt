@@ -1,0 +1,1 @@
+arm-none-eabi-gcc -mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a -c -g -O2 -mlong-calls -fdata-sections -funsigned-char -ffunction-sections -Wall -Dgcc -Dam335x -Dbeaglebone -DSUPPORT_UNALIGNED -DMMCSD -DUARTCONSOLE main.c -o main.o
