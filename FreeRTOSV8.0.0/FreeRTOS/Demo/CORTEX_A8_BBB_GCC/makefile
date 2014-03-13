@@ -43,4 +43,4 @@ app: main.o
 
 .PHONY: clean
 clean:
-	rm *.o
+	rm *.o; rm *.map
