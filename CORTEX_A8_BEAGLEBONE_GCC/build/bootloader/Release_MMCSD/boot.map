@@ -1,0 +1,1550 @@
+Archive member included because of file (symbol)
+
+../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                              Release_MMCSD/bl_platform.o (GPIOModuleReset)
+../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                              Release_MMCSD/bl_hsmmcsd.o (HSMMCSDIntrStatusEnable)
+../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                              Release_MMCSD/bl_platform.o (I2CMasterInitExpClk)
+../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+                              Release_MMCSD/bl_platform.o (boardName)
+../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                              Release_MMCSD/bl_platform.o (UARTStdioInit)
+../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+                              ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o) (ASCIIToDigit)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+                              ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o) (BoardInfoCheck)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+                              ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o) (BoardInfoRead)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+                              Release_MMCSD/bl_platform.o (GPIO0ModuleClkConfig)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+                              Release_MMCSD/bl_platform.o (HSMMCSDPinMuxSetup)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+                              Release_MMCSD/bl_platform.o (I2CPinMuxSetup)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                              ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o) (UARTConsoleInit)
+../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+                              ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o) (UARTPinMuxSetup)
+../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                              Release_MMCSD/bl_hsmmcsd.o (HSMMCSDCardPresent)
+../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                              Release_MMCSD/fat_mmcsd.o (MMCSDBusWidthSet)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+                              Release_MMCSD/ff.o (memcmp)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+                              Release_MMCSD/bl_hsmmcsd.o (memcpy)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+                              Release_MMCSD/ff.o (memset)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                              Release_MMCSD/bl_platform.o (strcmp)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                              (__aeabi_uidiv)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                              (__aeabi_idiv)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                              ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o) (UARTOperatingModeSelect)
+
+Allocating common symbols
+Common symbol       size              file
+
+dataToSlave         0x3               Release_MMCSD/bl_platform.o
+sdCard              0x48              Release_MMCSD/bl_hsmmcsd.o
+rCount              0x4               Release_MMCSD/bl_platform.o
+boardName           0x8               ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+numOfBytes          0x4               Release_MMCSD/bl_platform.o
+ctrlInfo            0x50              Release_MMCSD/bl_hsmmcsd.o
+boardData           0x4               ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+tCount              0x4               Release_MMCSD/bl_platform.o
+oppMaxIdx           0x4               Release_MMCSD/bl_platform.o
+deviceVersion       0x4               Release_MMCSD/bl_platform.o
+dataFromSlave       0x2               Release_MMCSD/bl_platform.o
+boardVersion        0x5               ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+freqMultDDR         0x4               Release_MMCSD/bl_platform.o
+fat_devices         0x18              Release_MMCSD/fat_mmcsd.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 Release_MMCSD/bl_copy.o
+ .data          0x00000000        0x0 Release_MMCSD/bl_copy.o
+ .bss           0x00000000        0x0 Release_MMCSD/bl_copy.o
+ .text          0x00000000        0x0 Release_MMCSD/bl_hsmmcsd.o
+ .data          0x00000000        0x0 Release_MMCSD/bl_hsmmcsd.o
+ .bss           0x00000000        0x0 Release_MMCSD/bl_hsmmcsd.o
+ .data.g_sFresultStrings
+                0x00000000       0x70 Release_MMCSD/bl_hsmmcsd.o
+ .data.sdBlkSize
+                0x00000000        0x4 Release_MMCSD/bl_hsmmcsd.o
+ .bss.g_sPState
+                0x00000000        0x4 Release_MMCSD/bl_hsmmcsd.o
+ .bss.g_sCState
+                0x00000000        0x4 Release_MMCSD/bl_hsmmcsd.o
+ .data          0x00000000        0x0 Release_MMCSD/bl_init.o
+ .bss           0x00000000        0x0 Release_MMCSD/bl_init.o
+ .text          0x00000000        0x0 Release_MMCSD/bl_main.o
+ .data          0x00000000        0x0 Release_MMCSD/bl_main.o
+ .bss           0x00000000        0x0 Release_MMCSD/bl_main.o
+ .text.BootAbort
+                0x00000000        0x4 Release_MMCSD/bl_main.o
+ .bss.DspEntryPoint
+                0x00000000        0x4 Release_MMCSD/bl_main.o
+ .text          0x00000000        0x0 Release_MMCSD/bl_platform.o
+ .data          0x00000000        0x0 Release_MMCSD/bl_platform.o
+ .bss           0x00000000        0x0 Release_MMCSD/bl_platform.o
+ .data.flag     0x00000000        0x4 Release_MMCSD/bl_platform.o
+ .text          0x00000000        0x0 Release_MMCSD/cache.o
+ .data          0x00000000        0x0 Release_MMCSD/cache.o
+ .bss           0x00000000        0x0 Release_MMCSD/cache.o
+ .text.CacheDisable
+                0x00000000       0x68 Release_MMCSD/cache.o
+ .text.CacheEnable
+                0x00000000       0x84 Release_MMCSD/cache.o
+ .text.CacheInstInvalidateAll
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .text.CacheInstInvalidateBuff
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .text.CacheDataCleanInvalidateAll
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .text.CacheDataCleanAll
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .text.CacheDataInvalidateAll
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .text.CacheDataCleanInvalidateBuff
+                0x00000000       0x14 Release_MMCSD/cache.o
+ .data          0x00000000        0x0 Release_MMCSD/cp15.o
+ .bss           0x00000000        0x0 Release_MMCSD/cp15.o
+ .text          0x00000000        0x0 Release_MMCSD/device.o
+ .data          0x00000000        0x0 Release_MMCSD/device.o
+ .bss           0x00000000        0x0 Release_MMCSD/device.o
+ .text          0x00000000        0x0 Release_MMCSD/fat_mmcsd.o
+ .data          0x00000000        0x0 Release_MMCSD/fat_mmcsd.o
+ .bss           0x00000000        0x0 Release_MMCSD/fat_mmcsd.o
+ .text          0x00000000        0x0 Release_MMCSD/ff.o
+ .data          0x00000000        0x0 Release_MMCSD/ff.o
+ .bss           0x00000000        0x0 Release_MMCSD/ff.o
+ .text.get_fileinfo
+                0x00000000      0x114 Release_MMCSD/ff.o
+ .text.f_write  0x00000000      0x2f4 Release_MMCSD/ff.o
+ .text.f_lseek  0x00000000      0x268 Release_MMCSD/ff.o
+ .text.f_opendir
+                0x00000000       0xf4 Release_MMCSD/ff.o
+ .text.f_readdir
+                0x00000000       0xdc Release_MMCSD/ff.o
+ .text.f_stat   0x00000000       0x90 Release_MMCSD/ff.o
+ .text.f_getfree
+                0x00000000      0x174 Release_MMCSD/ff.o
+ .text.f_unlink
+                0x00000000      0x1cc Release_MMCSD/ff.o
+ .text.f_mkdir  0x00000000      0x320 Release_MMCSD/ff.o
+ .text.f_chmod  0x00000000       0xa8 Release_MMCSD/ff.o
+ .text.f_rename
+                0x00000000      0x198 Release_MMCSD/ff.o
+ .text          0x00000000        0x0 Release_MMCSD/mmu.o
+ .data          0x00000000        0x0 Release_MMCSD/mmu.o
+ .bss           0x00000000        0x0 Release_MMCSD/mmu.o
+ .text.MMUInit  0x00000000       0x54 Release_MMCSD/mmu.o
+ .text.MMUMemRegionMap
+                0x00000000       0x74 Release_MMCSD/mmu.o
+ .text.MMUEnable
+                0x00000000       0x20 Release_MMCSD/mmu.o
+ .debug_info    0x00000000      0x1aa Release_MMCSD/mmu.o
+ .debug_abbrev  0x00000000       0xee Release_MMCSD/mmu.o
+ .debug_loc     0x00000000      0x10b Release_MMCSD/mmu.o
+ .debug_aranges
+                0x00000000       0x30 Release_MMCSD/mmu.o
+ .debug_ranges  0x00000000       0x20 Release_MMCSD/mmu.o
+ .debug_line    0x00000000       0xf2 Release_MMCSD/mmu.o
+ .debug_str     0x00000000      0x14a Release_MMCSD/mmu.o
+ .comment       0x00000000       0x71 Release_MMCSD/mmu.o
+ .ARM.attributes
+                0x00000000       0x37 Release_MMCSD/mmu.o
+ .debug_frame   0x00000000       0x60 Release_MMCSD/mmu.o
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOModuleDisable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODirModeGet
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinRead
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsWrite
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsRead
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntEnable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntDisable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIntTypeSet
+                0x00000000      0x1bc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIntTypeGet
+                0x00000000       0x50 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntStatus
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntClear
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIORawIntStatus
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOTriggerPinInt
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalEnable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalDisable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpEnable
+                0x00000000       0x28 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpDisable
+                0x00000000       0x28 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOAutoIdleModeControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIdleModeConfigure
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOGatingRatioConfigure
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODebounceFuncControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODebounceTimeConfig
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIORevisionInfoGet
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.gpioContextSave
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.gpioContextRestore
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDIsIntClockStable
+                0x00000000       0x48 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDIsHSupported
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDIsCmdComplete
+                0x00000000       0x48 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDIsXferComplete
+                0x00000000       0x48 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDDataGet
+                0x00000000       0x24 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.HSMMCSDIsCardWriteProtected
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.MMCSDContextSave
+                0x00000000       0x34 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text.MMCSDContextRestore
+                0x00000000       0x34 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterBusy
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterErr
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterIntEnableEx
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterIntStatus
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterIntStatusEx
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterIntRawStatusClearEx
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CMasterSlaveAddrGet
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CDataCountGet
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CFIFOThresholdConfig
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CFIFOClear
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CDMATxEventEnable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CDMARxEventEnable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CDMATxEventDisable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CDMARxEventDisable
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CBufferStatus
+                0x00000000       0x40 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CActiveOwnAddressGet
+                0x00000000       0x50 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CClockBlockingControl
+                0x00000000       0x68 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2COwnAddressSet
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CAutoIdleEnable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CGlobalWakeUpEnable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CGlobalWakeUpDisable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CIdleModeSelect
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CClockActivitySelect
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CWakeUpEnable
+                0x00000000       0x44 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CWakeUpDisable
+                0x00000000       0x44 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CContextSave
+                0x00000000       0x24 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text.I2CContextRestore
+                0x00000000       0x64 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .text.BoardVersionGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .text.BoardNameGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .text.BoardIdGet
+                0x00000000       0x10 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTGets
+                0x00000000       0x98 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTPutNum
+                0x00000000       0xb0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTPutHexNum
+                0x00000000       0xa0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTGetNum
+                0x00000000       0x68 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTGetHexNum
+                0x00000000      0x164 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTPutc
+                0x00000000       0x14 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTGetc
+                0x00000000       0x14 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTwrite
+                0x00000000       0x58 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTprintf
+                0x00000000      0x4c8 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTScanf
+                0x00000000      0x718 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text.UARTPrintf
+                0x00000000      0x4bc ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .rodata.str1.4
+                0x00000000       0x60 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.ASCIIToDigit
+                0x00000000       0x84 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.DigitToASCII
+                0x00000000       0x38 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.StrToEthrAddr
+                0x00000000       0x80 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.EthrAddrToStr
+                0x00000000       0x84 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.TimeToStr
+                0x00000000       0x98 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text.DateToStr
+                0x00000000       0x98 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_info    0x00000000      0x38a ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_abbrev  0x00000000      0x171 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_loc     0x00000000      0x4e2 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_aranges
+                0x00000000       0x48 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_ranges  0x00000000       0x38 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_line    0x00000000      0x15c ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_str     0x00000000      0x184 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .ARM.attributes
+                0x00000000       0x37 ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .debug_frame   0x00000000       0xcc ../..//binary/armv7a/gcc/utils/Release/libutils.a(ascii.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1Pin23PinMuxSetup
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1ModuleClkConfig
+                0x00000000       0x78 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1PinMuxSetup
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .text.I2C1ModuleClkConfig
+                0x00000000      0x1a0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .text.UARTConsoleGetc
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .text.MMCSDCmdSend
+                0x00000000       0x10 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .text.MMCSDCardReset
+                0x00000000       0x30 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .text.MMCSDStopCmdSend
+                0x00000000       0x40 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .text          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .data          0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .bss           0x00000000        0x0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDivisorLatchEnable
+                0x00000000       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRegConfModeRestore
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeSet
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMAEnable
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMADisable
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTEnhanFuncEnable
+                0x00000000       0x2c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTEnhanFuncBitValRestore
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigMSRSPRModeEn
+                0x00000000       0x74 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigXOFFModeEn
+                0x00000000       0x74 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntEnable
+                0x00000000       0x84 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntDisable
+                0x00000000       0x74 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSpaceAvail
+                0x00000000       0x28 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharsAvail
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharPutNonBlocking
+                0x00000000       0x2c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGetNonBlocking
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGet
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGetTimeout
+                0x00000000       0x68 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOCharPut
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOCharGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOWrite
+                0x00000000       0x24 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRxErrorGet
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntIdentityGet
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntPendingStatusGet
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOEnableStatusGet
+                0x00000000       0x28 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoRTSAutoCTSControl
+                0x00000000       0x40 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSpecialCharDetectControl
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSoftwareFlowCtrlOptSet
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTPulseShapingControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIdleModeConfigure
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoIdleModeControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFlowCtrlTrigLvlConfig
+                0x00000000       0x18 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON1XOFF1ValProgram
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON2XOFF2ValProgram
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXONAnyFeatureControl
+                0x00000000       0x5c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTLoopbackModeControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlSet
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlClear
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusChangeCheck
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTResumeOperation
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsEnable
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsDisable
+                0x00000000       0x14 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOTrigLvlGranControl
+                0x00000000       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDSRInterruptControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxEmptyIntControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRWakeUpConfigure
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRTransitionStatusGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMACounterResetControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxFIFOFullStatusGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxFIFOLevelGet
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRxFIFOLevelGet
+                0x00000000        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudParityGet
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudWordLenGet
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudSpeedGet
+                0x00000000       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegWrite
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegRead
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModuleVersionNumberGet
+                0x00000000        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdControl
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdValConfig
+                0x00000000       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+IRAM_MEM         0x402f0400         0x0001fbff
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Release_MMCSD/bl_copy.o
+LOAD Release_MMCSD/bl_hsmmcsd.o
+LOAD Release_MMCSD/bl_init.o
+LOAD Release_MMCSD/bl_main.o
+LOAD Release_MMCSD/bl_platform.o
+LOAD Release_MMCSD/cache.o
+LOAD Release_MMCSD/cp15.o
+LOAD Release_MMCSD/device.o
+LOAD Release_MMCSD/fat_mmcsd.o
+LOAD Release_MMCSD/ff.o
+LOAD Release_MMCSD/mmu.o
+                0x402f0400                BOOT_START_ADDR = 0x402f0400
+
+.rsthand        0x402f0400       0x80
+                0x402f0400                . = ALIGN (0x4)
+ *bl_init.o(.text)
+ .text          0x402f0400       0x80 Release_MMCSD/bl_init.o
+                0x402f0400                Entry
+
+.text           0x402f0480     0x6654
+                0x402f0480                . = ALIGN (0x4)
+ *(.text*)
+ .text.ImageCopy
+                0x402f0480       0x20 Release_MMCSD/bl_copy.o
+                0x402f0480                ImageCopy
+ .text.HSMMCSDStatusGet
+                0x402f04a0       0x90 Release_MMCSD/bl_hsmmcsd.o
+ .text.HSMMCSDXferStatusGet
+                0x402f0530      0x1c4 Release_MMCSD/bl_hsmmcsd.o
+ .text.HSMMCSDXferSetup
+                0x402f06f4       0xd8 Release_MMCSD/bl_hsmmcsd.o
+ .text.HSMMCSDCmdStatusGet
+                0x402f07cc       0xd0 Release_MMCSD/bl_hsmmcsd.o
+ .text.HSMMCSDFsMount
+                0x402f089c       0x38 Release_MMCSD/bl_hsmmcsd.o
+                0x402f089c                HSMMCSDFsMount
+ .text.HSMMCSDImageCopy
+                0x402f08d4      0x14c Release_MMCSD/bl_hsmmcsd.o
+                0x402f08d4                HSMMCSDImageCopy
+ .text.HSMMCSDInit
+                0x402f0a20      0x158 Release_MMCSD/bl_hsmmcsd.o
+                0x402f0a20                HSMMCSDInit
+ .text.startup.main
+                0x402f0b78       0x98 Release_MMCSD/bl_main.o
+                0x402f0b78                main
+ .text.BootMaxOppGet
+                0x402f0c10       0xa4 Release_MMCSD/bl_platform.o
+                0x402f0c10                BootMaxOppGet
+ .text.CorePLLInit
+                0x402f0cb4      0x108 Release_MMCSD/bl_platform.o
+                0x402f0cb4                CorePLLInit
+ .text.DisplayPLLInit
+                0x402f0dbc       0xd0 Release_MMCSD/bl_platform.o
+                0x402f0dbc                DisplayPLLInit
+ .text.PerPLLInit
+                0x402f0e8c       0xcc Release_MMCSD/bl_platform.o
+                0x402f0e8c                PerPLLInit
+ .text.DDRPLLInit
+                0x402f0f58       0xd0 Release_MMCSD/bl_platform.o
+                0x402f0f58                DDRPLLInit
+ .text.MPUPLLInit
+                0x402f1028       0xd0 Release_MMCSD/bl_platform.o
+                0x402f1028                MPUPLLInit
+ .text.InterfaceClkInit
+                0x402f10f8       0xf4 Release_MMCSD/bl_platform.o
+                0x402f10f8                InterfaceClkInit
+ .text.PowerDomainTransitionInit
+                0x402f11ec       0x48 Release_MMCSD/bl_platform.o
+                0x402f11ec                PowerDomainTransitionInit
+ .text.PLLInit  0x402f1234       0x80 Release_MMCSD/bl_platform.o
+                0x402f1234                PLLInit
+ .text.SetupI2C
+                0x402f12b4       0xbc Release_MMCSD/bl_platform.o
+                0x402f12b4                SetupI2C
+ .text.CleanupInterrupts
+                0x402f1370       0x20 Release_MMCSD/bl_platform.o
+                0x402f1370                CleanupInterrupts
+ .text.SetupI2CTransmit
+                0x402f1390      0x128 Release_MMCSD/bl_platform.o
+                0x402f1390                SetupI2CTransmit
+ .text.SetupReception
+                0x402f14b8      0x1c0 Release_MMCSD/bl_platform.o
+                0x402f14b8                SetupReception
+ .text.TPS65217RegRead
+                0x402f1678       0x4c Release_MMCSD/bl_platform.o
+                0x402f1678                TPS65217RegRead
+ .text.TPS65217RegWrite
+                0x402f16c4      0x114 Release_MMCSD/bl_platform.o
+                0x402f16c4                TPS65217RegWrite
+ .text.TPS65217VoltageUpdate
+                0x402f17d8       0x3c Release_MMCSD/bl_platform.o
+                0x402f17d8                TPS65217VoltageUpdate
+ .text.SetVdd1OpVoltage
+                0x402f1814       0x1c Release_MMCSD/bl_platform.o
+                0x402f1814                SetVdd1OpVoltage
+ .text.ConfigVddOpVoltage
+                0x402f1830       0xec Release_MMCSD/bl_platform.o
+                0x402f1830                ConfigVddOpVoltage
+ .text.DDR3Init
+                0x402f191c      0x1c8 Release_MMCSD/bl_platform.o
+                0x402f191c                DDR3Init
+ .text.DDR2Init
+                0x402f1ae4      0x218 Release_MMCSD/bl_platform.o
+                0x402f1ae4                DDR2Init
+ .text.EMIFInit
+                0x402f1cfc       0x68 Release_MMCSD/bl_platform.o
+                0x402f1cfc                EMIFInit
+ .text.BlPlatformMMCSDSetup
+                0x402f1d64       0x20 Release_MMCSD/bl_platform.o
+                0x402f1d64                BlPlatformMMCSDSetup
+ .text.UARTSetup
+                0x402f1d84       0x44 Release_MMCSD/bl_platform.o
+                0x402f1d84                UARTSetup
+ .text.BlPlatformConfig
+                0x402f1dc8      0x1d8 Release_MMCSD/bl_platform.o
+                0x402f1dc8                BlPlatformConfig
+ .text.BlPlatformConfigPostBoot
+                0x402f1fa0        0x4 Release_MMCSD/bl_platform.o
+                0x402f1fa0                BlPlatformConfigPostBoot
+ .text.BlPlatformMMCSDImageCopy
+                0x402f1fa4       0x24 Release_MMCSD/bl_platform.o
+                0x402f1fa4                BlPlatformMMCSDImageCopy
+ .text.CacheDataCleanBuff
+                0x402f1fc8       0x14 Release_MMCSD/cache.o
+                0x402f1fc8                CacheDataCleanBuff
+ .text.CacheDataInvalidateBuff
+                0x402f1fdc       0x14 Release_MMCSD/cache.o
+                0x402f1fdc                CacheDataInvalidateBuff
+ .text          0x402f1ff0      0x488 Release_MMCSD/cp15.o
+                0x402f1ff0                CP15ICacheDisable
+                0x402f200c                CP15DCacheDisable
+                0x402f2028                CP15ICacheEnable
+                0x402f2038                CP15DCacheEnable
+                0x402f2048                CP15DCacheFlush
+                0x402f20dc                CP15DCacheClean
+                0x402f2170                CP15DCacheCleanFlush
+                0x402f2204                CP15ICacheFlush
+                0x402f2214                CP15DCacheCleanBuff
+                0x402f2268                CP15DCacheCleanFlushBuff
+                0x402f22bc                CP15DCacheFlushBuff
+                0x402f2320                CP15ICacheFlushBuff
+                0x402f2374                CP15Ttb0Set
+                0x402f2380                CP15TlbInvalidate
+                0x402f238c                CP15MMUDisable
+                0x402f23a4                CP15MMUEnable
+                0x402f23b8                CP15VectorBaseAddrSet
+                0x402f23c4                CP15BranchPredictorInvalidate
+                0x402f23d0                CP15BranchPredictionEnable
+                0x402f23e0                CP15BranchPredictionDisable
+                0x402f23f0                CP15DomainAccessClientSet
+                0x402f2400                CP15ControlFeatureDisable
+                0x402f2414                CP15ControlFeatureEnable
+                0x402f2428                CP15TtbCtlTtb0Config
+                0x402f2438                CP15AuxControlFeatureEnable
+                0x402f244c                CP15AuxControlFeatureDisable
+                0x402f2460                CP15MainIdPrimPartNumGet
+ .text.DeviceVersionGet
+                0x402f2478       0x14 Release_MMCSD/device.o
+                0x402f2478                DeviceVersionGet
+ .text.SysConfigOppDataGet
+                0x402f248c       0x18 Release_MMCSD/device.o
+                0x402f248c                SysConfigOppDataGet
+ .text.disk_initialize
+                0x402f24a4       0xb4 Release_MMCSD/fat_mmcsd.o
+                0x402f24a4                disk_initialize
+ .text.disk_status
+                0x402f2558        0x8 Release_MMCSD/fat_mmcsd.o
+                0x402f2558                disk_status
+ .text.disk_read
+                0x402f2560       0x3c Release_MMCSD/fat_mmcsd.o
+                0x402f2560                disk_read
+ .text.disk_write
+                0x402f259c       0x3c Release_MMCSD/fat_mmcsd.o
+                0x402f259c                disk_write
+ .text.disk_ioctl
+                0x402f25d8        0x8 Release_MMCSD/fat_mmcsd.o
+                0x402f25d8                disk_ioctl
+ .text.get_fattime
+                0x402f25e0        0xc Release_MMCSD/fat_mmcsd.o
+                0x402f25e0                get_fattime
+ .text.move_window
+                0x402f25ec       0xec Release_MMCSD/ff.o
+ .text.put_cluster
+                0x402f26d8      0x154 Release_MMCSD/ff.o
+ .text.validate
+                0x402f282c       0x38 Release_MMCSD/ff.o
+ .text.check_fs
+                0x402f2864       0xa0 Release_MMCSD/ff.o
+ .text.auto_mount
+                0x402f2904      0x30c Release_MMCSD/ff.o
+ .text.get_cluster
+                0x402f2c10      0x134 Release_MMCSD/ff.o
+ .text.next_dir_entry
+                0x402f2d44       0xb0 Release_MMCSD/ff.o
+ .text.trace_path
+                0x402f2df4      0x330 Release_MMCSD/ff.o
+ .text.create_chain
+                0x402f3124      0x100 Release_MMCSD/ff.o
+ .text.reserve_direntry
+                0x402f3224      0x1b0 Release_MMCSD/ff.o
+ .text.remove_chain
+                0x402f33d4       0x9c Release_MMCSD/ff.o
+ .text.sync     0x402f3470       0x58 Release_MMCSD/ff.o
+ .text.f_mount  0x402f34c8       0x6c Release_MMCSD/ff.o
+                0x402f34c8                f_mount
+ .text.f_open   0x402f3534      0x304 Release_MMCSD/ff.o
+                0x402f3534                f_open
+ .text.f_read   0x402f3838      0x284 Release_MMCSD/ff.o
+                0x402f3838                f_read
+ .text.f_sync   0x402f3abc      0x148 Release_MMCSD/ff.o
+                0x402f3abc                f_sync
+ .text.f_close  0x402f3c04       0x20 Release_MMCSD/ff.o
+                0x402f3c04                f_close
+ .text.GPIOModuleReset
+                0x402f3c24       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                0x402f3c24                GPIOModuleReset
+ .text.GPIOModuleEnable
+                0x402f3c44       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                0x402f3c44                GPIOModuleEnable
+ .text.GPIODirModeSet
+                0x402f3c54       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                0x402f3c54                GPIODirModeSet
+ .text.GPIOPinWrite
+                0x402f3c70       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                0x402f3c70                GPIOPinWrite
+ .text.HSMMCSDSoftReset
+                0x402f3c8c       0x58 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3c8c                HSMMCSDSoftReset
+ .text.HSMMCSDLinesReset
+                0x402f3ce4       0x5c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3ce4                HSMMCSDLinesReset
+ .text.HSMMCSDSystemConfig
+                0x402f3d40       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3d40                HSMMCSDSystemConfig
+ .text.HSMMCSDBusWidthSet
+                0x402f3d60       0x68 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3d60                HSMMCSDBusWidthSet
+ .text.HSMMCSDBusVoltSet
+                0x402f3dc8       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3dc8                HSMMCSDBusVoltSet
+ .text.HSMMCSDBusPower
+                0x402f3de4       0x68 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3de4                HSMMCSDBusPower
+ .text.HSMMCSDIntClock
+                0x402f3e4c       0x88 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3e4c                HSMMCSDIntClock
+ .text.HSMMCSDSupportedVoltSet
+                0x402f3ed4       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3ed4                HSMMCSDSupportedVoltSet
+ .text.HSMMCSDDataTimeoutSet
+                0x402f3ef0       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3ef0                HSMMCSDDataTimeoutSet
+ .text.HSMMCSDBusFreqSet
+                0x402f3f0c      0x174 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f3f0c                HSMMCSDBusFreqSet
+ .text.HSMMCSDInitStreamSend
+                0x402f4080       0x90 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4080                HSMMCSDInitStreamSend
+ .text.HSMMCSDIntrStatusEnable
+                0x402f4110       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4110                HSMMCSDIntrStatusEnable
+ .text.HSMMCSDIntrStatusDisable
+                0x402f4120       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4120                HSMMCSDIntrStatusDisable
+ .text.HSMMCSDIntrEnable
+                0x402f4130       0x1c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4130                HSMMCSDIntrEnable
+ .text.HSMMCSDIntrStatusGet
+                0x402f414c        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f414c                HSMMCSDIntrStatusGet
+ .text.HSMMCSDIntrStatusClear
+                0x402f4158        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4158                HSMMCSDIntrStatusClear
+ .text.HSMMCSDBlkLenSet
+                0x402f4160       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4160                HSMMCSDBlkLenSet
+ .text.HSMMCSDCommandSend
+                0x402f4180       0x40 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f4180                HSMMCSDCommandSend
+ .text.HSMMCSDResponseGet
+                0x402f41c0       0x24 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f41c0                HSMMCSDResponseGet
+ .text.HSMMCSDIsCardInserted
+                0x402f41e4        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                0x402f41e4                HSMMCSDIsCardInserted
+ .text.I2CMasterInitExpClk
+                0x402f41f0       0x50 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f41f0                I2CMasterInitExpClk
+ .text.I2CMasterEnable
+                0x402f4240       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4240                I2CMasterEnable
+ .text.I2CMasterDisable
+                0x402f4250       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4250                I2CMasterDisable
+ .text.I2CMasterBusBusy
+                0x402f4260        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4260                I2CMasterBusBusy
+ .text.I2CMasterControl
+                0x402f426c        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f426c                I2CMasterControl
+ .text.I2CMasterStart
+                0x402f4278       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4278                I2CMasterStart
+ .text.I2CMasterStop
+                0x402f4288       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4288                I2CMasterStop
+ .text.I2CMasterIntDisableEx
+                0x402f4298        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4298                I2CMasterIntDisableEx
+ .text.I2CMasterIntRawStatus
+                0x402f42a0        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42a0                I2CMasterIntRawStatus
+ .text.I2CMasterIntRawStatusEx
+                0x402f42a8        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42a8                I2CMasterIntRawStatusEx
+ .text.I2CMasterIntClearEx
+                0x402f42b4        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42b4                I2CMasterIntClearEx
+ .text.I2CMasterSlaveAddrSet
+                0x402f42bc        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42bc                I2CMasterSlaveAddrSet
+ .text.I2CSetDataCount
+                0x402f42c4        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42c4                I2CSetDataCount
+ .text.I2CSoftReset
+                0x402f42cc       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42cc                I2CSoftReset
+ .text.I2CAutoIdleDisable
+                0x402f42dc       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42dc                I2CAutoIdleDisable
+ .text.I2CSystemStatusGet
+                0x402f42ec        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42ec                I2CSystemStatusGet
+ .text.I2CMasterDataPut
+                0x402f42f8        0x8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f42f8                I2CMasterDataPut
+ .text.I2CMasterDataGet
+                0x402f4300        0xc ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                0x402f4300                I2CMasterDataGet
+ .text.BoardInfoInit
+                0x402f430c       0xb4 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+                0x402f430c                BoardInfoInit
+ .text.UARTStdioInit
+                0x402f43c0       0x14 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x402f43c0                UARTStdioInit
+ .text.UARTPuts
+                0x402f43d4       0x78 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x402f43d4                UARTPuts
+ .text.BoardInfoCheck
+                0x402f444c       0xd4 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+                0x402f444c                BoardInfoCheck
+ .text.EEPROMI2CSetUp
+                0x402f4520       0xe0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+                0x402f4520                EEPROMI2CSetUp
+ .text.EEPROMI2CRead
+                0x402f4600      0x1d4 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+                0x402f4600                EEPROMI2CRead
+ .text.BoardInfoRead
+                0x402f47d4       0x34 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+                0x402f47d4                BoardInfoRead
+ .text.GPIO0ModuleClkConfig
+                0x402f4808       0xdc ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+                0x402f4808                GPIO0ModuleClkConfig
+ .text.GpioPinMuxSetup
+                0x402f48e4       0x10 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+                0x402f48e4                GpioPinMuxSetup
+ .text.HSMMCSDPinMuxSetup
+                0x402f48f4       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+                0x402f48f4                HSMMCSDPinMuxSetup
+ .text.HSMMCSDModuleClkConfig
+                0x402f4924       0x2c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+                0x402f4924                HSMMCSDModuleClkConfig
+ .text.I2CPinMuxSetup
+                0x402f4950       0x3c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+                0x402f4950                I2CPinMuxSetup
+ .text.I2C0ModuleClkConfig
+                0x402f498c      0x25c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+                0x402f498c                I2C0ModuleClkConfig
+ .text.UARTConsoleInit
+                0x402f4be8       0xf0 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                0x402f4be8                UARTConsoleInit
+ .text.UARTConsolePutc
+                0x402f4cd8       0x20 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                0x402f4cd8                UARTConsolePutc
+ .text.UARTPinMuxSetup
+                0x402f4cf8       0x24 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+                0x402f4cf8                UARTPinMuxSetup
+ .text.UART0ModuleClkConfig
+                0x402f4d1c      0x25c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+                0x402f4d1c                UART0ModuleClkConfig
+ .text.HSMMCSDCardPresent
+                0x402f4f78       0x18 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f4f78                HSMMCSDCardPresent
+ .text.HSMMCSDIntEnable
+                0x402f4f90       0x20 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f4f90                HSMMCSDIntEnable
+ .text.HSMMCSDControllerInit
+                0x402f4fb0      0x124 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f4fb0                HSMMCSDControllerInit
+ .text.HSMMCSDCmdSend
+                0x402f50d4      0x12c ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f50d4                HSMMCSDCmdSend
+ .text.HSMMCSDBusWidthConfig
+                0x402f5200       0x20 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f5200                HSMMCSDBusWidthConfig
+ .text.HSMMCSDBusFreqConfig
+                0x402f5220       0x20 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                0x402f5220                HSMMCSDBusFreqConfig
+ .text.MMCSDAppCmdSend
+                0x402f5240       0x58 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5240                MMCSDAppCmdSend
+ .text.MMCSDBusWidthSet
+                0x402f5298       0x98 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5298                MMCSDBusWidthSet
+ .text.MMCSDTranSpeedSet
+                0x402f5330       0xf0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5330                MMCSDTranSpeedSet
+ .text.MMCSDCardTypeCheck
+                0x402f5420       0x34 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5420                MMCSDCardTypeCheck
+ .text.MMCSDCtrlInit
+                0x402f5454       0x10 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5454                MMCSDCtrlInit
+ .text.MMCSDCardPresent
+                0x402f5464       0x10 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5464                MMCSDCardPresent
+ .text.MMCSDIntEnable
+                0x402f5474       0x10 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5474                MMCSDIntEnable
+ .text.MMCSDCardInit
+                0x402f5484      0x41c ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f5484                MMCSDCardInit
+ .text.MMCSDWriteCmdSend
+                0x402f58a0      0x110 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f58a0                MMCSDWriteCmdSend
+ .text.MMCSDReadCmdSend
+                0x402f59b0      0x108 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                0x402f59b0                MMCSDReadCmdSend
+ .text.memcmp   0x402f5ab8       0xb4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+                0x402f5ab8                memcmp
+ .text.memcpy   0x402f5b6c       0xf4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+                0x402f5b6c                memcpy
+ .text.memset   0x402f5c60       0xf8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+                0x402f5c60                memset
+ .text.strcmp   0x402f5d58       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                0x402f5d58                strcmp
+ .text.strcmp_unaligned
+                0x402f5dec      0x19c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .text          0x402f5f88      0x114 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x402f5f88                __udivsi3
+                0x402f5f88                __aeabi_uidiv
+                0x402f607c                __aeabi_uidivmod
+ .text          0x402f609c      0x148 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x402f609c                __aeabi_idiv
+                0x402f609c                __divsi3
+                0x402f61c4                __aeabi_idivmod
+ .text          0x402f61e4        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x402f61e4                __aeabi_ldiv0
+                0x402f61e4                __aeabi_idiv0
+ .text.UARTOperatingModeSelect
+                0x402f61e8       0x2c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f61e8                UARTOperatingModeSelect
+ .text.UARTDivisorValCompute
+                0x402f6214       0x68 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f6214                UARTDivisorValCompute
+ .text.UARTDivisorLatchDisable
+                0x402f627c       0x10 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f627c                UARTDivisorLatchDisable
+ .text.UARTRegConfigModeEnable
+                0x402f628c       0x44 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f628c                UARTRegConfigModeEnable
+ .text.UARTDivisorLatchWrite
+                0x402f62d0      0x13c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f62d0                UARTDivisorLatchWrite
+ .text.UARTBreakCtl
+                0x402f640c       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f640c                UARTBreakCtl
+ .text.UARTLineCharacConfig
+                0x402f642c       0x3c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f642c                UARTLineCharacConfig
+ .text.UARTFIFORegisterWrite
+                0x402f6468       0x88 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f6468                UARTFIFORegisterWrite
+ .text.UARTSubConfigTCRTLRModeEn
+                0x402f64f0       0x74 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f64f0                UARTSubConfigTCRTLRModeEn
+ .text.UARTTCRTLRBitValRestore
+                0x402f6564       0x78 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f6564                UARTTCRTLRBitValRestore
+ .text.UARTFIFOConfig
+                0x402f65dc      0x224 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f65dc                UARTFIFOConfig
+ .text.UARTCharPut
+                0x402f6800       0x30 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f6800                UARTCharPut
+ .text.UARTModuleReset
+                0x402f6830       0x20 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x402f6830                UARTModuleReset
+ *(.rodata*)
+ .rodata.str1.4
+                0x402f6850      0x174 Release_MMCSD/bl_hsmmcsd.o
+ .rodata.str1.4
+                0x402f69c4       0x49 Release_MMCSD/bl_main.o
+                                 0x4c (size before relaxing)
+ *fill*         0x402f6a0d        0x3 00
+ .rodata.str1.4
+                0x402f6a10        0xf Release_MMCSD/bl_platform.o
+                                 0x10 (size before relaxing)
+ *fill*         0x402f6a1f        0x1 00
+ .rodata.str1.4
+                0x402f6a20       0x16 Release_MMCSD/fat_mmcsd.o
+                                 0x18 (size before relaxing)
+ *fill*         0x402f6a36        0x2 00
+ .rodata.str1.4
+                0x402f6a38        0xa Release_MMCSD/ff.o
+                                  0xc (size before relaxing)
+ *fill*         0x402f6a42        0x2 00
+ .rodata.str1.4
+                0x402f6a44       0x2d ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+                                 0x30 (size before relaxing)
+ *fill*         0x402f6a71        0x3 00
+ .rodata.str1.4
+                0x402f6a74       0x60 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+
+.glue_7         0x402f6ad4        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x402f6ad4        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x402f6ad4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x402f6ad4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x402f6ad4        0x0
+ .iplt          0x00000000        0x0 Release_MMCSD/bl_copy.o
+
+.rel.dyn        0x402f6ad4        0x0
+ .rel.iplt      0x00000000        0x0 Release_MMCSD/bl_copy.o
+
+.data           0x402f6ad4       0x58
+                0x402f6ad4                . = ALIGN (0x4)
+ *(.data*)
+ .data.deviceType
+                0x402f6ad4        0x4 Release_MMCSD/bl_platform.o
+                0x402f6ad4                deviceType
+ .data.oppTable
+                0x402f6ad8       0x50 Release_MMCSD/bl_platform.o
+                0x402f6ad8                oppTable
+ .data.boardId  0x402f6b28        0x4 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+                0x402f6b28                boardId
+
+.igot.plt       0x402f6b2c        0x0
+ .igot.plt      0x00000000        0x0 Release_MMCSD/bl_copy.o
+
+.bss            0x402f6b80      0x879
+                0x402f6b80                . = ALIGN (0x4)
+                0x402f6b80                _bss_start = .
+ *(.bss*)
+ .bss.g_cTmpBuf
+                0x402f6b80      0x200 Release_MMCSD/bl_hsmmcsd.o
+ .bss.hsmmcsd_dataLen
+                0x402f6d80        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f6d80                hsmmcsd_dataLen
+ .bss.cmdTimeout
+                0x402f6d84        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f6d84                cmdTimeout
+ .bss.g_sFileObject
+                0x402f6d88      0x248 Release_MMCSD/bl_hsmmcsd.o
+ .bss.cmdCompFlag
+                0x402f6fd0        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f6fd0                cmdCompFlag
+ .bss.errFlag   0x402f6fd4        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f6fd4                errFlag
+ .bss.g_sFatFs  0x402f6fd8      0x240 Release_MMCSD/bl_hsmmcsd.o
+ .bss.hsmmcsd_buffer
+                0x402f7218        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f7218                hsmmcsd_buffer
+ .bss.xferPend  0x402f721c        0x4 Release_MMCSD/bl_hsmmcsd.o
+                0x402f721c                xferPend
+ .bss.entryPoint
+                0x402f7220        0x4 Release_MMCSD/bl_main.o
+                0x402f7220                entryPoint
+ .bss.appEntry  0x402f7224        0x4 Release_MMCSD/bl_main.o
+ .bss.isBBB     0x402f7228        0x1 Release_MMCSD/bl_platform.o
+                0x402f7228                isBBB
+ *fill*         0x402f7229        0x1 00
+ .bss.fsid      0x402f722a        0x2 Release_MMCSD/ff.o
+ .bss.FatFs     0x402f722c        0x8 Release_MMCSD/ff.o
+ *fill*         0x402f7234       0x4c 00
+ .bss.dataBuffer
+                0x402f7280       0x80 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ *(COMMON)
+ COMMON         0x402f7300       0xb0 Release_MMCSD/bl_hsmmcsd.o
+                0x402f7300                sdCard
+                0x402f7360                ctrlInfo
+ COMMON         0x402f73b0       0x20 Release_MMCSD/bl_platform.o
+                0x402f73b0                dataToSlave
+                0x402f73b4                rCount
+                0x402f73b8                numOfBytes
+                0x402f73bc                tCount
+                0x402f73c0                oppMaxIdx
+                0x402f73c4                deviceVersion
+                0x402f73c8                dataFromSlave
+                0x402f73cc                freqMultDDR
+ COMMON         0x402f73d0       0x18 Release_MMCSD/fat_mmcsd.o
+                0x402f73d0                fat_devices
+ COMMON         0x402f73e8       0x11 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+                0x402f73e8                boardName
+                0x402f73f0                boardData
+                0x402f73f4                boardVersion
+                0x402f73f9                _bss_end = .
+
+.heap           0x402f73f9      0x803
+                0x402f73fc                . = ALIGN (0x4)
+ *fill*         0x402f73f9        0x3 00
+                0x402f73fc                __end__ = .
+                0x402f73fc                end = __end__
+                0x402f73fc                __HeapBase = __end__
+ *(.heap*)
+                0x402f7bfc                . = (. + 0x800)
+ *fill*         0x402f73fc      0x800 00
+                0x402f7bfc                __HeapLimit = .
+
+.stack          0x402f7bfc      0x804
+                0x402f7c00                . = ALIGN (0x100)
+ *fill*         0x402f7bfc        0x4 00
+                0x402f7c00                __StackLimit = .
+ *(.stack*)
+                0x402f8400                . = (. + 0x800)
+ *fill*         0x402f7c00      0x800 00
+                0x402f8400                __StackTop = .
+                0x402f8400                _stack = __StackTop
+LOAD ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a
+LOAD ../..//binary/armv7a/gcc/utils/Release/libutils.a
+LOAD ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a
+LOAD ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+LOAD ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a
+LOAD ../..//binary/armv7a/gcc/utils/Release/libutils.a
+LOAD ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a
+LOAD ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+OUTPUT(Release_MMCSD/boot.out elf32-littlearm)
+
+.debug_info     0x00000000     0xb26a
+ .debug_info    0x00000000       0x9c Release_MMCSD/bl_copy.o
+ .debug_info    0x0000009c      0xcf1 Release_MMCSD/bl_hsmmcsd.o
+ .debug_info    0x00000d8d       0x89 Release_MMCSD/bl_init.o
+ .debug_info    0x00000e16      0x145 Release_MMCSD/bl_main.o
+ .debug_info    0x00000f5b      0xa61 Release_MMCSD/bl_platform.o
+ .debug_info    0x000019bc      0x277 Release_MMCSD/cache.o
+ .debug_info    0x00001c33       0x91 Release_MMCSD/cp15.o
+ .debug_info    0x00001cc4       0x7e Release_MMCSD/device.o
+ .debug_info    0x00001d42      0x79c Release_MMCSD/fat_mmcsd.o
+ .debug_info    0x000024de     0x210b Release_MMCSD/ff.o
+ .debug_info    0x000045e9      0x78f ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_info    0x00004d78      0x980 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_info    0x000056f8      0xa41 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_info    0x00006139      0x1e2 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_info    0x0000631b      0xfce ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_info    0x000072e9      0x153 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_info    0x0000743c      0x279 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_info    0x000076b5       0xd7 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_info    0x0000778c       0x62 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_info    0x000077ee       0x90 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_info    0x0000787e      0x270 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_info    0x00007aee       0x7b ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_info    0x00007b69      0x6ce ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_info    0x00008237     0x1066 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_info    0x0000929d     0x1fcd ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_abbrev   0x00000000     0x2147
+ .debug_abbrev  0x00000000       0x81 Release_MMCSD/bl_copy.o
+ .debug_abbrev  0x00000081      0x301 Release_MMCSD/bl_hsmmcsd.o
+ .debug_abbrev  0x00000382       0x14 Release_MMCSD/bl_init.o
+ .debug_abbrev  0x00000396       0xc9 Release_MMCSD/bl_main.o
+ .debug_abbrev  0x0000045f      0x1cd Release_MMCSD/bl_platform.o
+ .debug_abbrev  0x0000062c       0x8b Release_MMCSD/cache.o
+ .debug_abbrev  0x000006b7       0x14 Release_MMCSD/cp15.o
+ .debug_abbrev  0x000006cb       0x66 Release_MMCSD/device.o
+ .debug_abbrev  0x00000731      0x1a7 Release_MMCSD/fat_mmcsd.o
+ .debug_abbrev  0x000008d8      0x3b7 Release_MMCSD/ff.o
+ .debug_abbrev  0x00000c8f      0x142 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_abbrev  0x00000dd1      0x2d7 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_abbrev  0x000010a8      0x177 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_abbrev  0x0000121f       0xec ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_abbrev  0x0000130b      0x309 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_abbrev  0x00001614       0x8c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_abbrev  0x000016a0       0xfd ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_abbrev  0x0000179d       0x89 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_abbrev  0x00001826       0x39 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_abbrev  0x0000185f       0x62 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_abbrev  0x000018c1      0x10e ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_abbrev  0x000019cf       0x62 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_abbrev  0x00001a31      0x167 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_abbrev  0x00001b98      0x2e2 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_abbrev  0x00001e7a      0x2cd ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_loc      0x00000000     0x9b00
+ .debug_loc     0x00000000       0x20 Release_MMCSD/bl_copy.o
+ .debug_loc     0x00000020      0x3e1 Release_MMCSD/bl_hsmmcsd.o
+ .debug_loc     0x00000401       0x20 Release_MMCSD/bl_main.o
+ .debug_loc     0x00000421      0xa16 Release_MMCSD/bl_platform.o
+ .debug_loc     0x00000e37      0x2b0 Release_MMCSD/cache.o
+ .debug_loc     0x000010e7       0x22 Release_MMCSD/device.o
+ .debug_loc     0x00001109      0x2d8 Release_MMCSD/fat_mmcsd.o
+ .debug_loc     0x000013e1     0x260b Release_MMCSD/ff.o
+ .debug_loc     0x000039ec      0x4d1 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_loc     0x00003ebd      0x7d0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_loc     0x0000468d      0x58e ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_loc     0x00004c1b       0x7b ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_loc     0x00004c96     0x18d9 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_loc     0x0000656f       0x6a ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_loc     0x000065d9      0x13e ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_loc     0x00006717       0x35 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_loc     0x0000674c       0xab ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_loc     0x000067f7      0x3e0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_loc     0x00006bd7     0x1108 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_loc     0x00007cdf     0x1e21 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_aranges  0x00000000      0xc30
+ .debug_aranges
+                0x00000000       0x20 Release_MMCSD/bl_copy.o
+ .debug_aranges
+                0x00000020       0x50 Release_MMCSD/bl_hsmmcsd.o
+ .debug_aranges
+                0x00000070       0x20 Release_MMCSD/bl_init.o
+ .debug_aranges
+                0x00000090       0x28 Release_MMCSD/bl_main.o
+ .debug_aranges
+                0x000000b8       0xe8 Release_MMCSD/bl_platform.o
+ .debug_aranges
+                0x000001a0       0x68 Release_MMCSD/cache.o
+ .debug_aranges
+                0x00000208       0x20 Release_MMCSD/cp15.o
+ .debug_aranges
+                0x00000228       0x28 Release_MMCSD/device.o
+ .debug_aranges
+                0x00000250       0x48 Release_MMCSD/fat_mmcsd.o
+ .debug_aranges
+                0x00000298       0xf8 Release_MMCSD/ff.o
+ .debug_aranges
+                0x00000390      0x100 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_aranges
+                0x00000490       0xf8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_aranges
+                0x00000588      0x180 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_aranges
+                0x00000708       0x38 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_aranges
+                0x00000740       0x80 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_aranges
+                0x000007c0       0x20 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_aranges
+                0x000007e0       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_aranges
+                0x00000810       0x40 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_aranges
+                0x00000850       0x28 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_aranges
+                0x00000878       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_aranges
+                0x000008a8       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_aranges
+                0x000008d8       0x28 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_aranges
+                0x00000900       0x48 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_aranges
+                0x00000948       0x80 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_aranges
+                0x000009c8      0x268 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_ranges   0x00000000     0x16a8
+ .debug_ranges  0x00000000       0x10 Release_MMCSD/bl_copy.o
+ .debug_ranges  0x00000010       0x58 Release_MMCSD/bl_hsmmcsd.o
+ .debug_ranges  0x00000068       0x18 Release_MMCSD/bl_main.o
+ .debug_ranges  0x00000080      0x138 Release_MMCSD/bl_platform.o
+ .debug_ranges  0x000001b8       0x58 Release_MMCSD/cache.o
+ .debug_ranges  0x00000210       0x18 Release_MMCSD/device.o
+ .debug_ranges  0x00000228       0x50 Release_MMCSD/fat_mmcsd.o
+ .debug_ranges  0x00000278      0x2e0 Release_MMCSD/ff.o
+ .debug_ranges  0x00000558       0xf0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_ranges  0x00000648      0x160 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_ranges  0x000007a8      0x170 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_ranges  0x00000918       0x28 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_ranges  0x00000940      0x330 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_ranges  0x00000c70       0x10 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_ranges  0x00000c80       0x58 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_ranges  0x00000cd8       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_ranges  0x00000d08       0x18 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_ranges  0x00000d20       0x20 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_ranges  0x00000d40       0x60 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_ranges  0x00000da0       0x18 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_ranges  0x00000db8       0x38 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_ranges  0x00000df0      0x2f0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_ranges  0x000010e0      0x5c8 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_line     0x00000000     0x3ef7
+ .debug_line    0x00000000       0x54 Release_MMCSD/bl_copy.o
+ .debug_line    0x00000054      0x2ed Release_MMCSD/bl_hsmmcsd.o
+ .debug_line    0x00000341       0x74 Release_MMCSD/bl_init.o
+ .debug_line    0x000003b5       0x6b Release_MMCSD/bl_main.o
+ .debug_line    0x00000420      0x5be Release_MMCSD/bl_platform.o
+ .debug_line    0x000009de      0x108 Release_MMCSD/cache.o
+ .debug_line    0x00000ae6      0x181 Release_MMCSD/cp15.o
+ .debug_line    0x00000c67       0x6e Release_MMCSD/device.o
+ .debug_line    0x00000cd5      0x149 Release_MMCSD/fat_mmcsd.o
+ .debug_line    0x00000e1e      0x9a0 Release_MMCSD/ff.o
+ .debug_line    0x000017be      0x2cb ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_line    0x00001a89      0x32c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_line    0x00001db5      0x3c4 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_line    0x00002179       0xc4 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_line    0x0000223d      0x84d ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_line    0x00002a8a       0x61 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_line    0x00002aeb       0xce ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_line    0x00002bb9       0xe3 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_line    0x00002c9c       0x6a ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_line    0x00002d06      0x15a ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_line    0x00002e60       0x9b ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_line    0x00002efb       0xfd ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_line    0x00002ff8      0x125 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_line    0x0000311d      0x44b ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_line    0x00003568      0x98f ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_str      0x00000000     0x284c
+ .debug_str     0x00000000       0xd7 Release_MMCSD/bl_copy.o
+                                 0xee (size before relaxing)
+ .debug_str     0x000000d7      0x536 Release_MMCSD/bl_hsmmcsd.o
+                                0x663 (size before relaxing)
+ .debug_str     0x0000060d       0x4b Release_MMCSD/bl_main.o
+                                0x101 (size before relaxing)
+ .debug_str     0x00000658      0x300 Release_MMCSD/bl_platform.o
+                                0x43c (size before relaxing)
+ .debug_str     0x00000958      0x11b Release_MMCSD/cache.o
+                                0x1b3 (size before relaxing)
+ .debug_str     0x00000a73       0x51 Release_MMCSD/device.o
+                                0x105 (size before relaxing)
+ .debug_str     0x00000ac4       0xd2 Release_MMCSD/fat_mmcsd.o
+                                0x3de (size before relaxing)
+ .debug_str     0x00000b96      0x298 Release_MMCSD/ff.o
+                                0x5ff (size before relaxing)
+ .debug_str     0x00000e2e      0x33e ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x0000116c      0x2f1 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+                                0x3c6 (size before relaxing)
+ .debug_str     0x0000145d      0x41a ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+                                0x4ef (size before relaxing)
+ .debug_str     0x00001877       0xda ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+                                0x15e (size before relaxing)
+ .debug_str     0x00001951      0x1c7 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                                0x29a (size before relaxing)
+ .debug_str     0x00001b18       0x70 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+                                0x153 (size before relaxing)
+ .debug_str     0x00001b88       0x67 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+                                0x138 (size before relaxing)
+ .debug_str     0x00001bef       0x96 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+                                0x143 (size before relaxing)
+ .debug_str     0x00001c85       0x45 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+                                 0xe9 (size before relaxing)
+ .debug_str     0x00001cca       0x58 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+                                0x105 (size before relaxing)
+ .debug_str     0x00001d22       0xbd ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                                0x16f (size before relaxing)
+ .debug_str     0x00001ddf       0x48 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+                                 0xf5 (size before relaxing)
+ .debug_str     0x00001e27       0xfc ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+                                0x348 (size before relaxing)
+ .debug_str     0x00001f23       0xd9 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+                                0x3af (size before relaxing)
+ .debug_str     0x00001ffc      0x850 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                                0x953 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Release_MMCSD/bl_copy.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Release_MMCSD/bl_hsmmcsd.o
+ .comment       0x00000000       0x71 Release_MMCSD/bl_main.o
+ .comment       0x00000000       0x71 Release_MMCSD/bl_platform.o
+ .comment       0x00000000       0x71 Release_MMCSD/cache.o
+ .comment       0x00000000       0x71 Release_MMCSD/device.o
+ .comment       0x00000000       0x71 Release_MMCSD/fat_mmcsd.o
+ .comment       0x00000000       0x71 Release_MMCSD/ff.o
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .comment       0x00000000       0x71 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x37 Release_MMCSD/bl_copy.o
+ .ARM.attributes
+                0x00000037       0x37 Release_MMCSD/bl_hsmmcsd.o
+ .ARM.attributes
+                0x0000006e       0x1f Release_MMCSD/bl_init.o
+ .ARM.attributes
+                0x0000008d       0x37 Release_MMCSD/bl_main.o
+ .ARM.attributes
+                0x000000c4       0x37 Release_MMCSD/bl_platform.o
+ .ARM.attributes
+                0x000000fb       0x37 Release_MMCSD/cache.o
+ .ARM.attributes
+                0x00000132       0x1f Release_MMCSD/cp15.o
+ .ARM.attributes
+                0x00000151       0x37 Release_MMCSD/device.o
+ .ARM.attributes
+                0x00000188       0x37 Release_MMCSD/fat_mmcsd.o
+ .ARM.attributes
+                0x000001bf       0x37 Release_MMCSD/ff.o
+ .ARM.attributes
+                0x000001f6       0x37 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .ARM.attributes
+                0x0000022d       0x37 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .ARM.attributes
+                0x00000264       0x37 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .ARM.attributes
+                0x0000029b       0x37 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .ARM.attributes
+                0x000002d2       0x37 ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .ARM.attributes
+                0x00000309       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .ARM.attributes
+                0x00000340       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .ARM.attributes
+                0x00000377       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .ARM.attributes
+                0x000003ae       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .ARM.attributes
+                0x000003e5       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .ARM.attributes
+                0x0000041c       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .ARM.attributes
+                0x00000453       0x37 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .ARM.attributes
+                0x0000048a       0x37 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .ARM.attributes
+                0x000004c1       0x37 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .ARM.attributes
+                0x000004f8       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000528       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000558       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000588       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000005b8       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000005d0       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000005e8       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000600       0x37 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+
+.debug_frame    0x00000000     0x1c7c
+ .debug_frame   0x00000000       0x28 Release_MMCSD/bl_copy.o
+ .debug_frame   0x00000028       0xec Release_MMCSD/bl_hsmmcsd.o
+ .debug_frame   0x00000114       0x38 Release_MMCSD/bl_main.o
+ .debug_frame   0x0000014c      0x294 Release_MMCSD/bl_platform.o
+ .debug_frame   0x000003e0      0x100 Release_MMCSD/cache.o
+ .debug_frame   0x000004e0       0x30 Release_MMCSD/device.o
+ .debug_frame   0x00000510       0x8c Release_MMCSD/fat_mmcsd.o
+ .debug_frame   0x0000059c      0x3a0 Release_MMCSD/ff.o
+ .debug_frame   0x0000093c      0x1e0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_frame   0x00000b1c      0x204 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hs_mmcsd.o)
+ .debug_frame   0x00000d20      0x2f0 ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(hsi2c.o)
+ .debug_frame   0x00001010       0x60 ../..//binary/armv7a/gcc/utils/Release/libutils.a(board.o)
+ .debug_frame   0x00001070      0x1cc ../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_frame   0x0000123c       0x2c ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(board.o)
+ .debug_frame   0x00001268       0x68 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(eeprom.o)
+ .debug_frame   0x000012d0       0x60 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_frame   0x00001330       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hs_mmcsd.o)
+ .debug_frame   0x00001360       0x40 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(hsi2c.o)
+ .debug_frame   0x000013a0       0x58 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_frame   0x000013f8       0x30 ../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
+ .debug_frame   0x00001428       0xb0 ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(hs_mmcsdlib.o)
+ .debug_frame   0x000014d8      0x17c ../..//binary/armv7a/gcc/mmcsdlib/Release/libmmcsd.a(mmcsd_proto.o)
+ .debug_frame   0x00001654       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000167c       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memcpy.o)
+ .debug_frame   0x000016a8       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memset.o)
+ .debug_frame   0x000016d0       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00001700       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001720       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .debug_frame   0x00001740      0x53c ../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
