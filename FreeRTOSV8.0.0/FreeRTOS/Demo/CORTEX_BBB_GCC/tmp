@@ -1,0 +1,623 @@
+--- /home/steven/AM335X_StarterWare_02_00_01_01/build/armv7a/gcc/am335x/beaglebone/gpio/Release/gpioLedBlink.map	2014-03-06 16:15:47.920490779 -0600
++++ bbb.map	2014-03-12 23:57:05.262660630 -0500
+@@ -1,21 +1,16 @@
+ Archive member included because of file (symbol)
+ 
+-../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+-                              Release/gpioLEDBlink.o (GPIOModuleReset)
+-../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+-                              Release/gpioLEDBlink.o (GPIO1Pin23PinMuxSetup)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+-                              (Entry)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+-                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o) (start_boot)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+-                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o) (CP15VectorBaseAddrSet)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+-                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o) (IRQHandler)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+-                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o) (fnRAMVectors)
+-../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+-                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o) (CPUAbortHandler)
++./libdrivers.a(gpio_v2.o)     main.o (GPIOModuleReset)
++./libplatform.a(gpio.o)       main.o (GPIO1Pin23PinMuxSetup)
++./libsystem_config.a(init.o)  (Entry)
++./libsystem_config.a(startup.o)
++                              ./libsystem_config.a(init.o) (start_boot)
++./libsystem_config.a(cp15.o)  ./libsystem_config.a(startup.o) (CP15VectorBaseAddrSet)
++./libsystem_config.a(exceptionhandler.o)
++                              ./libsystem_config.a(startup.o) (IRQHandler)
++./libsystem_config.a(interrupt.o)
++                              ./libsystem_config.a(exceptionhandler.o) (fnRAMVectors)
++./libsystem_config.a(cpu.o)   ./libsystem_config.a(exceptionhandler.o) (CPUAbortHandler)
+ /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                               (__aeabi_uidiv)
+ /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+@@ -26,177 +21,177 @@
+ Allocating common symbols
+ Common symbol       size              file
+ 
+-fnRAMVectors        0x200             ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++fnRAMVectors        0x200             ./libsystem_config.a(interrupt.o)
+ 
+ Discarded input sections
+ 
+- .text          0x00000000        0x0 Release/gpioLEDBlink.o
+- .data          0x00000000        0x0 Release/gpioLEDBlink.o
+- .bss           0x00000000        0x0 Release/gpioLEDBlink.o
+- .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++ .text          0x00000000        0x0 main.o
++ .data          0x00000000        0x0 main.o
++ .bss           0x00000000        0x0 main.o
++ .text          0x00000000        0x0 ./libdrivers.a(gpio_v2.o)
++ .data          0x00000000        0x0 ./libdrivers.a(gpio_v2.o)
++ .bss           0x00000000        0x0 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOModuleDisable
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x10 ./libdrivers.a(gpio_v2.o)
+  .text.GPIODirModeGet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinRead
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x10 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOMultiplePinsWrite
+-                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000        0xc ./libdrivers.a(gpio_v2.o)
+  .text.GPIOMultiplePinsRead
+-                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000        0xc ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntEnable
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntDisable
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOIntTypeSet
+-                0x00000000      0x1bc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000      0x1bc ./libdrivers.a(gpio_v2.o)
+  .text.GPIOIntTypeGet
+-                0x00000000       0x50 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x50 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntStatus
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntClear
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIORawIntStatus
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x14 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOTriggerPinInt
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x18 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOWakeupGlobalEnable
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x10 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOWakeupGlobalDisable
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x10 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntWakeUpEnable
+-                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x28 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOPinIntWakeUpDisable
+-                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x28 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOAutoIdleModeControl
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x20 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOIdleModeConfigure
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x20 ./libdrivers.a(gpio_v2.o)
+  .text.GPIOGatingRatioConfigure
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x20 ./libdrivers.a(gpio_v2.o)
+  .text.GPIODebounceFuncControl
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x20 ./libdrivers.a(gpio_v2.o)
+  .text.GPIODebounceTimeConfig
+-                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000        0xc ./libdrivers.a(gpio_v2.o)
+  .text.GPIORevisionInfoGet
+-                0x00000000        0x8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000        0x8 ./libdrivers.a(gpio_v2.o)
+  .text.gpioContextSave
+-                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000000       0x1c ./libdrivers.a(gpio_v2.o)
+  .text.gpioContextRestore
+-                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x00000000       0x1c ./libdrivers.a(gpio_v2.o)
++ .text          0x00000000        0x0 ./libplatform.a(gpio.o)
++ .data          0x00000000        0x0 ./libplatform.a(gpio.o)
++ .bss           0x00000000        0x0 ./libplatform.a(gpio.o)
+  .text.GPIO0ModuleClkConfig
+-                0x00000000       0xdc ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x00000000       0xdc ./libplatform.a(gpio.o)
+  .text.GPIO1PinMuxSetup
+-                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x00000000       0x1c ./libplatform.a(gpio.o)
+  .text.GpioPinMuxSetup
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+- .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++                0x00000000       0x10 ./libplatform.a(gpio.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(init.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(init.o)
++ .text          0x00000000        0x0 ./libsystem_config.a(startup.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(startup.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(startup.o)
+  .rodata.AM335X_VECTOR_BASE
+-                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+- .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000        0x4 ./libsystem_config.a(startup.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(cp15.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(cp15.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(exceptionhandler.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(exceptionhandler.o)
++ .text          0x00000000        0x0 ./libsystem_config.a(interrupt.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(interrupt.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(interrupt.o)
+  .text.IntDefaultHandler
+-                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000        0x4 ./libsystem_config.a(interrupt.o)
+  .text.IntRegister
+-                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x10 ./libsystem_config.a(interrupt.o)
+  .text.IntUnRegister
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntAINTCInit
+-                0x00000000       0x54 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x54 ./libsystem_config.a(interrupt.o)
+  .text.IntPrioritySet
+-                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x24 ./libsystem_config.a(interrupt.o)
+  .text.IntSystemEnable
+-                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x24 ./libsystem_config.a(interrupt.o)
+  .text.IntSystemDisable
+-                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x24 ./libsystem_config.a(interrupt.o)
+  .text.IntIfClkFreeRunSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntIfClkAutoGateSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntActiveIrqNumGet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntSpurIrqFlagGet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntProtectionEnable
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntProtectionDisable
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntSyncClkFreeRunSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntSyncClkAutoGateSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntFuncClkFreeRunSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntFuncClkAutoGateSet
+-                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x18 ./libsystem_config.a(interrupt.o)
+  .text.IntCurrIrqPriorityGet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntPriorityThresholdGet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntPriorityThresholdSet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntRawStatusGet
+-                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x24 ./libsystem_config.a(interrupt.o)
+  .text.IntSoftwareIntSet
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x20 ./libsystem_config.a(interrupt.o)
+  .text.IntSoftwareIntClear
+-                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x20 ./libsystem_config.a(interrupt.o)
+  .text.IntPendingIrqMaskedStatusGet
+-                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x24 ./libsystem_config.a(interrupt.o)
+  .text.IntMasterIRQEnable
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntMasterIRQDisable
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntMasterFIQEnable
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntMasterFIQDisable
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntMasterStatusGet
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x14 ./libsystem_config.a(interrupt.o)
+  .text.IntDisable
+-                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x00000000       0x28 ./libsystem_config.a(interrupt.o)
+  .text.IntEnable
+-                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+- .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000       0x1c ./libsystem_config.a(interrupt.o)
++ .text          0x00000000        0x0 ./libsystem_config.a(cpu.o)
++ .data          0x00000000        0x0 ./libsystem_config.a(cpu.o)
++ .bss           0x00000000        0x0 ./libsystem_config.a(cpu.o)
+  .text.CPUSwitchToPrivilegedMode
+-                0x00000000        0x8 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000        0x8 ./libsystem_config.a(cpu.o)
+  .text.CPUSwitchToUserMode
+-                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000       0x14 ./libsystem_config.a(cpu.o)
+  .text.CPUAbortHandler
+-                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000        0x4 ./libsystem_config.a(cpu.o)
+  .text.CPUIntStatus
+-                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .text.CPUirqd  0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .text.CPUirqe  0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .text.CPUfiqd  0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .text.CPUfiqe  0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_info    0x00000000       0xef ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_abbrev  0x00000000       0x64 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000        0xc ./libsystem_config.a(cpu.o)
++ .text.CPUirqd  0x00000000       0x14 ./libsystem_config.a(cpu.o)
++ .text.CPUirqe  0x00000000       0x14 ./libsystem_config.a(cpu.o)
++ .text.CPUfiqd  0x00000000       0x14 ./libsystem_config.a(cpu.o)
++ .text.CPUfiqe  0x00000000       0x14 ./libsystem_config.a(cpu.o)
++ .debug_info    0x00000000       0xef ./libsystem_config.a(cpu.o)
++ .debug_abbrev  0x00000000       0x64 ./libsystem_config.a(cpu.o)
+  .debug_aranges
+-                0x00000000       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_ranges  0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_line    0x00000000       0xd6 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_str     0x00000000      0x147 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000       0x58 ./libsystem_config.a(cpu.o)
++ .debug_ranges  0x00000000       0x48 ./libsystem_config.a(cpu.o)
++ .debug_line    0x00000000       0xd6 ./libsystem_config.a(cpu.o)
++ .debug_str     0x00000000      0x147 ./libsystem_config.a(cpu.o)
++ .comment       0x00000000       0x71 ./libsystem_config.a(cpu.o)
+  .ARM.attributes
+-                0x00000000       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+- .debug_frame   0x00000000       0x90 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
++                0x00000000       0x3d ./libsystem_config.a(cpu.o)
++ .debug_frame   0x00000000       0x90 ./libsystem_config.a(cpu.o)
+  .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+  .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+  .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+@@ -212,54 +207,42 @@
+ 
+ Linker script and memory map
+ 
+-LOAD Release/gpioLEDBlink.o
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a
+-LOAD ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a
+-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
+-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a
+-LOAD ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a
+-LOAD ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a
+-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
+-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
++LOAD main.o
+ 
+ .startcode      0x80000000       0xb4
+                 0x80000000                . = ALIGN (0x4)
+  *init.o(.text)
+- .text          0x80000000       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
++ .text          0x80000000       0xb4 ./libsystem_config.a(init.o)
+                 0x80000000                Entry
+ 
+ .text           0x800000b4      0xa20
+                 0x800000b4                . = ALIGN (0x4)
+  *(.text*)
+  .text.startup.main
+-                0x800000b4       0xbc Release/gpioLEDBlink.o
++                0x800000b4       0xbc main.o
+                 0x800000b4                main
+  .text.GPIOModuleReset
+-                0x80000170       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x80000170       0x20 ./libdrivers.a(gpio_v2.o)
+                 0x80000170                GPIOModuleReset
+  .text.GPIOModuleEnable
+-                0x80000190       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x80000190       0x10 ./libdrivers.a(gpio_v2.o)
+                 0x80000190                GPIOModuleEnable
+  .text.GPIODirModeSet
+-                0x800001a0       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x800001a0       0x1c ./libdrivers.a(gpio_v2.o)
+                 0x800001a0                GPIODirModeSet
+  .text.GPIOPinWrite
+-                0x800001bc       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x800001bc       0x1c ./libdrivers.a(gpio_v2.o)
+                 0x800001bc                GPIOPinWrite
+  .text.GPIO1Pin23PinMuxSetup
+-                0x800001d8       0x14 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x800001d8       0x14 ./libplatform.a(gpio.o)
+                 0x800001d8                GPIO1Pin23PinMuxSetup
+  .text.GPIO1ModuleClkConfig
+-                0x800001ec       0x78 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x800001ec       0x78 ./libplatform.a(gpio.o)
+                 0x800001ec                GPIO1ModuleClkConfig
+  .text.start_boot
+-                0x80000264       0x60 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++                0x80000264       0x60 ./libsystem_config.a(startup.o)
+                 0x80000264                start_boot
+- .text          0x800002c4      0x488 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
++ .text          0x800002c4      0x488 ./libsystem_config.a(cp15.o)
+                 0x800002c4                CP15ICacheDisable
+                 0x800002e0                CP15DCacheDisable
+                 0x800002fc                CP15ICacheEnable
+@@ -287,7 +270,7 @@
+                 0x8000070c                CP15AuxControlFeatureEnable
+                 0x80000720                CP15AuxControlFeatureDisable
+                 0x80000734                CP15MainIdPrimPartNumGet
+- .text          0x8000074c       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
++ .text          0x8000074c       0xf0 ./libsystem_config.a(exceptionhandler.o)
+                 0x8000074c                SVC_Handler
+                 0x80000774                IRQHandler
+                 0x80000820                FIQHandler
+@@ -306,7 +289,7 @@
+                 0x80000a98                __aeabi_idiv0
+  *(.rodata*)
+  .rodata.vecTbl
+-                0x80000a9c       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++                0x80000a9c       0x38 ./libsystem_config.a(startup.o)
+ 
+ .glue_7         0x80000ad4        0x0
+  .glue_7        0x00000000        0x0 linker stubs
+@@ -321,24 +304,24 @@
+  .v4_bx         0x00000000        0x0 linker stubs
+ 
+ .iplt           0x80000ad4        0x0
+- .iplt          0x00000000        0x0 Release/gpioLEDBlink.o
++ .iplt          0x00000000        0x0 main.o
+ 
+ .rel.dyn        0x80000ad4        0x0
+- .rel.iplt      0x00000000        0x0 Release/gpioLEDBlink.o
++ .rel.iplt      0x00000000        0x0 main.o
+ 
+ .data           0x80000ad4        0x0
+                 0x80000ad4                . = ALIGN (0x4)
+  *(.data*)
+ 
+ .igot.plt       0x80000ad4        0x0
+- .igot.plt      0x00000000        0x0 Release/gpioLEDBlink.o
++ .igot.plt      0x00000000        0x0 main.o
+ 
+ .bss            0x80000ad4      0x200
+                 0x80000ad4                . = ALIGN (0x4)
+                 0x80000ad4                _bss_start = .
+  *(.bss*)
+  *(COMMON)
+- COMMON         0x80000ad4      0x200 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ COMMON         0x80000ad4      0x200 ./libsystem_config.a(interrupt.o)
+                 0x80000ad4                fnRAMVectors
+                 0x80000cd4                _bss_end = .
+ 
+@@ -360,107 +343,113 @@
+  *fill*         0x800014d4  0x7fffff8 00
+                 0x880014cc                __StackTop = .
+                 0x880014cc                _stack = __StackTop
+-OUTPUT(Release/gpioLedBlink.out elf32-littlearm)
++LOAD ./libdrivers.a
++LOAD ./libutils.a
++LOAD ./libplatform.a
++LOAD ./libsystem_config.a
++LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
++LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
++OUTPUT(app.out elf32-littlearm)
+ 
+ .debug_info     0x00000000     0x116e
+- .debug_info    0x00000000       0xfc Release/gpioLEDBlink.o
+- .debug_info    0x000000fc      0x78f ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_info    0x0000088b       0xd7 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_info    0x00000962       0xaa ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+- .debug_info    0x00000a0c      0x116 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_info    0x00000b22       0xaa ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+- .debug_info    0x00000bcc       0xbd ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+- .debug_info    0x00000c89      0x4e5 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .debug_info    0x00000000       0xfc main.o
++ .debug_info    0x000000fc      0x78f ./libdrivers.a(gpio_v2.o)
++ .debug_info    0x0000088b       0xd7 ./libplatform.a(gpio.o)
++ .debug_info    0x00000962       0xaa ./libsystem_config.a(init.o)
++ .debug_info    0x00000a0c      0x116 ./libsystem_config.a(startup.o)
++ .debug_info    0x00000b22       0xaa ./libsystem_config.a(cp15.o)
++ .debug_info    0x00000bcc       0xbd ./libsystem_config.a(exceptionhandler.o)
++ .debug_info    0x00000c89      0x4e5 ./libsystem_config.a(interrupt.o)
+ 
+ .debug_abbrev   0x00000000      0x5a8
+- .debug_abbrev  0x00000000       0xae Release/gpioLEDBlink.o
+- .debug_abbrev  0x000000ae      0x142 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_abbrev  0x000001f0       0x89 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_abbrev  0x00000279       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+- .debug_abbrev  0x0000028d       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_abbrev  0x00000375       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+- .debug_abbrev  0x00000389       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+- .debug_abbrev  0x0000039d      0x20b ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .debug_abbrev  0x00000000       0xae main.o
++ .debug_abbrev  0x000000ae      0x142 ./libdrivers.a(gpio_v2.o)
++ .debug_abbrev  0x000001f0       0x89 ./libplatform.a(gpio.o)
++ .debug_abbrev  0x00000279       0x14 ./libsystem_config.a(init.o)
++ .debug_abbrev  0x0000028d       0xe8 ./libsystem_config.a(startup.o)
++ .debug_abbrev  0x00000375       0x14 ./libsystem_config.a(cp15.o)
++ .debug_abbrev  0x00000389       0x14 ./libsystem_config.a(exceptionhandler.o)
++ .debug_abbrev  0x0000039d      0x20b ./libsystem_config.a(interrupt.o)
+ 
+ .debug_loc      0x00000000      0x7c8
+- .debug_loc     0x00000000       0x46 Release/gpioLEDBlink.o
+- .debug_loc     0x00000046      0x4d1 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_loc     0x00000517       0x35 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_loc     0x0000054c       0x34 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_loc     0x00000580      0x248 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .debug_loc     0x00000000       0x46 main.o
++ .debug_loc     0x00000046      0x4d1 ./libdrivers.a(gpio_v2.o)
++ .debug_loc     0x00000517       0x35 ./libplatform.a(gpio.o)
++ .debug_loc     0x0000054c       0x34 ./libsystem_config.a(startup.o)
++ .debug_loc     0x00000580      0x248 ./libsystem_config.a(interrupt.o)
+ 
+ .debug_aranges  0x00000000      0x2f0
+  .debug_aranges
+-                0x00000000       0x20 Release/gpioLEDBlink.o
++                0x00000000       0x20 main.o
+  .debug_aranges
+-                0x00000020      0x100 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000020      0x100 ./libdrivers.a(gpio_v2.o)
+  .debug_aranges
+-                0x00000120       0x40 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x00000120       0x40 ./libplatform.a(gpio.o)
+  .debug_aranges
+-                0x00000160       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
++                0x00000160       0x20 ./libsystem_config.a(init.o)
+  .debug_aranges
+-                0x00000180       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++                0x00000180       0x20 ./libsystem_config.a(startup.o)
+  .debug_aranges
+-                0x000001a0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
++                0x000001a0       0x20 ./libsystem_config.a(cp15.o)
+  .debug_aranges
+-                0x000001c0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
++                0x000001c0       0x20 ./libsystem_config.a(exceptionhandler.o)
+  .debug_aranges
+-                0x000001e0      0x110 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x000001e0      0x110 ./libsystem_config.a(interrupt.o)
+ 
+ .debug_ranges   0x00000000      0x270
+- .debug_ranges  0x00000000       0x10 Release/gpioLEDBlink.o
+- .debug_ranges  0x00000010       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_ranges  0x00000100       0x30 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_ranges  0x00000130       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_ranges  0x00000140      0x130 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+-
+-.debug_line     0x00000000      0xa55
+- .debug_line    0x00000000       0x82 Release/gpioLEDBlink.o
+- .debug_line    0x00000082      0x2df ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_line    0x00000361       0xfa ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_line    0x0000045b       0x93 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+- .debug_line    0x000004ee       0x76 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_line    0x00000564      0x18a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+- .debug_line    0x000006ee       0xb9 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+- .debug_line    0x000007a7      0x2ae ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+-
+-.debug_str      0x00000000      0x8e6
+- .debug_str     0x00000000       0xff Release/gpioLEDBlink.o
+- .debug_str     0x000000ff      0x374 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++ .debug_ranges  0x00000000       0x10 main.o
++ .debug_ranges  0x00000010       0xf0 ./libdrivers.a(gpio_v2.o)
++ .debug_ranges  0x00000100       0x30 ./libplatform.a(gpio.o)
++ .debug_ranges  0x00000130       0x10 ./libsystem_config.a(startup.o)
++ .debug_ranges  0x00000140      0x130 ./libsystem_config.a(interrupt.o)
++
++.debug_line     0x00000000      0xa21
++ .debug_line    0x00000000       0x4e main.o
++ .debug_line    0x0000004e      0x2df ./libdrivers.a(gpio_v2.o)
++ .debug_line    0x0000032d       0xfa ./libplatform.a(gpio.o)
++ .debug_line    0x00000427       0x93 ./libsystem_config.a(init.o)
++ .debug_line    0x000004ba       0x76 ./libsystem_config.a(startup.o)
++ .debug_line    0x00000530      0x18a ./libsystem_config.a(cp15.o)
++ .debug_line    0x000006ba       0xb9 ./libsystem_config.a(exceptionhandler.o)
++ .debug_line    0x00000773      0x2ae ./libsystem_config.a(interrupt.o)
++
++.debug_str      0x00000000      0x8a2
++ .debug_str     0x00000000       0xbb main.o
++ .debug_str     0x000000bb      0x374 ./libdrivers.a(gpio_v2.o)
+                                 0x3ca (size before relaxing)
+- .debug_str     0x00000473      0x105 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++ .debug_str     0x0000042f      0x105 ./libplatform.a(gpio.o)
+                                 0x172 (size before relaxing)
+- .debug_str     0x00000578       0xc2 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++ .debug_str     0x00000534       0xc2 ./libsystem_config.a(startup.o)
+                                 0x135 (size before relaxing)
+- .debug_str     0x0000063a      0x2ac ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .debug_str     0x000005f6      0x2ac ./libsystem_config.a(interrupt.o)
+                                 0x380 (size before relaxing)
+ 
+ .comment        0x00000000       0x70
+- .comment       0x00000000       0x70 Release/gpioLEDBlink.o
++ .comment       0x00000000       0x70 main.o
+                                  0x71 (size before relaxing)
+- .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .comment       0x00000000       0x71 ./libdrivers.a(gpio_v2.o)
++ .comment       0x00000000       0x71 ./libplatform.a(gpio.o)
++ .comment       0x00000000       0x71 ./libsystem_config.a(startup.o)
++ .comment       0x00000000       0x71 ./libsystem_config.a(interrupt.o)
+ 
+ .ARM.attributes
+                 0x00000000       0x3b
+  .ARM.attributes
+-                0x00000000       0x37 Release/gpioLEDBlink.o
++                0x00000000       0x37 main.o
+  .ARM.attributes
+-                0x00000037       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
++                0x00000037       0x37 ./libdrivers.a(gpio_v2.o)
+  .ARM.attributes
+-                0x0000006e       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
++                0x0000006e       0x37 ./libplatform.a(gpio.o)
+  .ARM.attributes
+-                0x000000a5       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
++                0x000000a5       0x23 ./libsystem_config.a(init.o)
+  .ARM.attributes
+-                0x000000c8       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
++                0x000000c8       0x3d ./libsystem_config.a(startup.o)
+  .ARM.attributes
+-                0x00000105       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
++                0x00000105       0x23 ./libsystem_config.a(cp15.o)
+  .ARM.attributes
+-                0x00000128       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
++                0x00000128       0x23 ./libsystem_config.a(exceptionhandler.o)
+  .ARM.attributes
+-                0x0000014b       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++                0x0000014b       0x3d ./libsystem_config.a(interrupt.o)
+  .ARM.attributes
+                 0x00000188       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+  .ARM.attributes
+@@ -469,10 +458,10 @@
+                 0x000001b8       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ 
+ .debug_frame    0x00000000      0x508
+- .debug_frame   0x00000000       0x28 Release/gpioLEDBlink.o
+- .debug_frame   0x00000028      0x1e0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+- .debug_frame   0x00000208       0x60 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+- .debug_frame   0x00000268       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+- .debug_frame   0x00000290      0x238 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
++ .debug_frame   0x00000000       0x28 main.o
++ .debug_frame   0x00000028      0x1e0 ./libdrivers.a(gpio_v2.o)
++ .debug_frame   0x00000208       0x60 ./libplatform.a(gpio.o)
++ .debug_frame   0x00000268       0x28 ./libsystem_config.a(startup.o)
++ .debug_frame   0x00000290      0x238 ./libsystem_config.a(interrupt.o)
+  .debug_frame   0x000004c8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+  .debug_frame   0x000004e8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
