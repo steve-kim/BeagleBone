@@ -2,9 +2,10 @@
 
 IMG_LOAD_ADDR=0x80000000
 
-ROOT=../
+ROOT=..
+TI_TOOLS=$(ROOT)/tools/ti_image/
 
-include ${ROOT}build/makedefs
+include ${ROOT}/build/makedefs
 
 
 #LIB_GCC=${LIB_PATH}/lib/gcc/arm-none-eabi/4.7.3/
@@ -18,22 +19,24 @@ APP_LIB=-ldrivers  \
         -lplatform \
         -lsystem_config
 
-GCC=arm-none-eabi-gcc
-LD=arm-none-eabi-ld
-BIN=arm-none-eabi-objcopy
+#GCC=arm-none-eabi-gcc
+#LD=arm-none-eabi-ld
+#BIN=arm-none-eabi-objcopy
 
 #RUNTIMELIB=-lc -lgcc
 
 #
 # Linker options
 #
-LDFLAGS=-e Entry -u Entry -u __aeabi_uidiv -u __aeabi_idiv --gc-sections
+#LDFLAGS=-e Entry -u Entry -u __aeabi_uidiv -u __aeabi_idiv --gc-sections
 
 #
 # Device and EVM definitions
 #
 DEVICE=am335x
 EVM=beaglebone
+
+TARGET_MODE=Release
 
 CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a
 CFLAGS+=-c -g -O2 -mlong-calls -fdata-sections -funsigned-char \
@@ -43,7 +46,7 @@ app: main.o
 	$(LD) -o $@.out $< -T bbb.ld -Map bbb.map $(LPATH) $(APP_LIB) $(LDFLAGS) $(RUNTIMELIB) -L. \
 		 -L$(LIB_GCC) -L$(LIB_C)
 	$(BIN) $(BINFLAGS) $@.out $@.bin
-	gcc tiimage.c -o a.out;
+	gcc $(TI_TOOLS)tiimage.c -o a.out;
 	./a.out $(IMG_LOAD_ADDR) NONE $@.bin $@_ti.bin; mv $@_ti.bin $@
 
 main.o: main.c
