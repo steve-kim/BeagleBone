@@ -1,0 +1,200 @@
+#
+# Copyright (C) 2010 Texas Instruments Incorporated - http://www.ti.com/ 
+#
+# 
+#  Redistribution and use in source and binary forms, with or without 
+#  modification, are permitted provided that the following conditions 
+#  are met:
+#
+#    Redistributions of source code must retain the above copyright 
+#    notice, this list of conditions and the following disclaimer.
+#
+#    Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the 
+#    documentation and/or other materials provided with the   
+#    distribution.
+#
+#    Neither the name of Texas Instruments Incorporated nor the names of
+#    its contributors may be used to endorse or promote products derived
+#    from this software without specific prior written permission.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+#  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+#  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+#  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+#  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+#  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+#  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+#  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+#  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+#  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+#
+# Contents
+# 1. Common paths and options
+# 2. Settings for GCC + makefiles
+#******************************************************************************
+
+DEVICE=am335x
+EVM=beaglebone
+TOOLS_TI=./tools/ti
+VPATH=src include
+
+
+#
+# Toolchain/library path. LIB_PATH is an exported environmental variable which
+# shall point to the installation of toolchain
+#
+LIB_GCC=${LIB_PATH}/lib/gcc/arm-none-eabi/4.7.3/
+LIB_C=${LIB_PATH}/arm-none-eabi/lib/
+
+#
+# Target and Compiler definitions (Device and EVM specified by makefile)
+#
+TARGET=armv7a
+COMPILER=gcc
+BOOT=MMCSD
+
+#
+# Default Console type is set to UART to redirect all I/O operations
+# to UART console. User can override this option to select semiHosting
+# console while building the example by providing the following
+# option "make CONSOLE=SEMIHOSTING" during compilation.
+#
+CONSOLE=UARTCONSOLE
+
+#
+# Convert Windows native style filenames to POSIX style filenames
+#
+CYGPATH=cypath
+
+#
+# Target directories to be built
+#
+DRIVERS_BLD=${ROOT}/lib/ti/drivers
+PLATFORM_BLD=${ROOT}/lib/ti/platform
+SYSCONFIG_BLD=${ROOT}/lib/ti/system_config
+IPCLIB_BLD=${ROOT}/lib/ti/ipclite
+UTILITY_BLD=${ROOT}/lib/ti/utils
+USBLIB_BLD=${ROOT}/lib/ti/usblib
+GRLIB_BLD=${ROOT}/lib/ti/grlib
+NANDLIB_BLD=${ROOT}/lib/ti/nandlib
+MMCSDLIB_BLD=${ROOT}/lib/ti/mmcsdlib
+NORLIB_BLD=${ROOT}/lib/ti/norlib
+
+#
+# Pre/recompiled library paths
+#
+DRIVERS_BIN=${ROOT}/bin/lib/ti/drivers
+PLATFORM_BIN=${ROOT}/bin/lib/ti/platform
+SYSCONFIG_BIN=${ROOT}/bin/lib/ti/system_config
+IPCLIB_BIN=${ROOT}/bin/lib/ti/ipclite
+UTILITY_BIN=${ROOT}/bin/lib/ti/utils
+USBLIB_BIN=${ROOT}/bin/lib/ti/usblib
+GRLIB_BIN=${ROOT}/bin/lib/ti/grlib
+NANDLIB_BIN=${ROOT}/bin/lib/ti/nandlib
+MMCSDLIB_BIN=${ROOT}/bin/lib/ti/mmcsdlib
+NORLIB_BLD=${ROOT}/bin/lib/ti/norlib
+
+#
+# Source code paths
+#
+DRIVERS_SRC=${ROOT}/src/ti/drivers
+PLATFORM_SRC=${ROOT}/src/ti/platform
+SYSCONFIG_SRC=${ROOT}/src/ti/system_config/${TARGET}
+IPCLIB_SRC=${ROOT}/src/ti/ipclite
+UTILITY_SRC=${ROOT}/src/ti/utils
+USBLIB_SRC=${ROOT}/src/ti/usblib
+GRLIB_SRC=${ROOT}/src/ti/grlib
+NANDLIB_SRC=${ROOT}/src/ti/nandlib
+MMCSDLIB_SRC=${ROOT}/src/ti/mmcsdlib
+FATFS_SRC=${ROOT}/src/ti/third_party/fatfs
+NORLIB_SRC=${ROOT}/src/ti/norlib
+
+#
+# Include paths
+#
+IPATH=-I${ROOT}/include/ti				\
+      -I${ROOT}/include/ti/hw				\
+      -I${ROOT}/include/ti/${TARGET}			\
+      -I${ROOT}/include/ti/${TARGET}/${DEVICE}		\
+      -I${ROOT}/include/ti/usblib 			\
+      -I"${LIB_PATH}/include"
+
+#
+# Library paths
+#
+LPATH=-L"${LIB_C}" \
+      -L"${LIB_GCC}" \
+      -L${DRIVERS_BIN}/${TARGET_MODE} \
+      -L${PLATFORM_BIN}/${TARGET_MODE} \
+      -L${SYSCONFIG_BIN}/${TARGET_MODE} \
+      -L${IPCLIB_BIN}/${TARGET_MODE} \
+      -L${UTILITY_BIN}/${TARGET_MODE} \
+      -L${USBLIB_BIN}/${TARGET_MODE} \
+      -L${GRLIB_BIN}/${TARGET_MODE} \
+      -L${NANDLIB_BIN}/${TARGET_MODE} \
+      -L${MMCSDLIB_BIN}/${TARGET_MODE} \
+      -L${NORLIB_BIN}/${TARGET_MODE}
+
+#
+# C compilation options
+#
+Debug_FLAG=-g
+Release_FLAG=-g -O2
+ifdef DEVICE
+DEVICE_D=-D${DEVICE}
+endif
+ifdef EVM
+EVM_D=-D${EVM}
+endif
+
+#
+# C runtime library linker option
+#
+RUNTIMELIB = -lc -lgcc
+
+#
+#  rdimon runtime library linker option for semiHosting support
+#
+ifeq ($(CONSOLE), SEMIHOSTING)
+CFLAGS+=--specs=rdimon.specs
+RUNTIMELIB = -lrdimon -lc -lgcc
+endif
+
+CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a
+CFLAGS+=-c ${${TARGET_MODE}_FLAG} -mlong-calls -fdata-sections -funsigned-char \
+            -ffunction-sections -Wall ${IPATH} -Dgcc ${DEVICE_D} ${EVM_D} \
+            -D SUPPORT_UNALIGNED -D ${BOOT} -D${CONSOLE}
+#
+# Defining the cross compiler tool prefix
+#
+ifndef PREFIX
+PREFIX=arm-none-eabi-
+endif
+
+#
+# Compiler, Linker and Archiver with respect to the toolchain
+#
+CC=${PREFIX}gcc
+LD=${PREFIX}ld
+AR=${PREFIX}ar
+BIN=$(PREFIX)objcopy
+
+#
+# Archiver options
+#
+ARFLAGS=-c -r
+
+#
+# Linker options
+#
+LDFLAGS=-e Entry -u Entry -u __aeabi_uidiv -u __aeabi_idiv --gc-sections
+
+#
+# Binary options
+#
+BINFLAGS=-O binary
+                          
+
