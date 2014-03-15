@@ -40,4 +40,12 @@ lib_ti:
 .PHONY: clean
 
 clean:
-	rm *.o; rm *.map
+	find ${ROOT}/ -name *.o -exec rm '{}' \;
+	-rm *.map
+	@for i in ${DIRS};						\
+	do								\
+		if [ -f $${i}/makefile ] ;				\
+		then							\
+			make clean -C $${i} || exit $$?;		\
+		fi;							\
+	done;
