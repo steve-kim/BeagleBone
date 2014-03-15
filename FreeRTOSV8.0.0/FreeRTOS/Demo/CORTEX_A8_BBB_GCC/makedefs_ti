@@ -142,7 +142,7 @@ LPATH=-L"${LIB_C}" \
 # C compilation options
 #
 Debug_FLAG=-g
-Release_FLAG=-g -O2
+release_FLAG=-g -O2
 ifdef DEVICE
 DEVICE_D=-D${DEVICE}
 endif
