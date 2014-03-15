@@ -1,6 +1,8 @@
 #  BBB makefile
 
-TARGET_MODE=release
+ifndef TARGET_MODE
+	TARGET_MODE=release
+endif
 
 ROOT=.
 

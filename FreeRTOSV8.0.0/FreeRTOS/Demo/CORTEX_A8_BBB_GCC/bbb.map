@@ -1,21 +1,21 @@
 Archive member included because of file (symbol)
 
-./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
                               main.o (GPIOModuleReset)
-./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
                               main.o (GPIO1Pin23PinMuxSetup)
-./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
+./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
                               (Entry)
-./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
-                              ./bin/lib/ti/system_config/release/libsystem_config.a(init.o) (start_boot)
-./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
-                              ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o) (CP15VectorBaseAddrSet)
-./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
-                              ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o) (IRQHandler)
-./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
-                              ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o) (fnRAMVectors)
-./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
-                              ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o) (CPUAbortHandler)
+./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+                              ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o) (start_boot)
+./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+                              ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o) (CP15VectorBaseAddrSet)
+./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+                              ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o) (IRQHandler)
+./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+                              ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o) (fnRAMVectors)
+./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+                              ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o) (CPUAbortHandler)
 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
                               (__aeabi_uidiv)
 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
@@ -26,177 +26,176 @@ Archive member included because of file (symbol)
 Allocating common symbols
 Common symbol       size              file
 
-fnRAMVectors        0x200             ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+fnRAMVectors        0x200             ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
 Discarded input sections
 
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .text          0x00000000        0x0 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .data          0x00000000        0x0 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+ .text          0x00000000        0x0 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOModuleDisable
-                0x00000000       0x10 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x38 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIODirModeGet
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x5c ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinRead
-                0x00000000       0x10 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x40 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOMultiplePinsWrite
-                0x00000000        0xc ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x44 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOMultiplePinsRead
-                0x00000000        0xc ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x38 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntEnable
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x64 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntDisable
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x64 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOIntTypeSet
-                0x00000000      0x1bc ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000      0x564 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOIntTypeGet
-                0x00000000       0x50 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000      0x120 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntStatus
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x84 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntClear
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x64 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIORawIntStatus
-                0x00000000       0x14 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x74 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOTriggerPinInt
-                0x00000000       0x18 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x64 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOWakeupGlobalEnable
-                0x00000000       0x10 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x38 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOWakeupGlobalDisable
-                0x00000000       0x10 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x38 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntWakeUpEnable
-                0x00000000       0x28 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x84 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOPinIntWakeUpDisable
-                0x00000000       0x28 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x8c ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOAutoIdleModeControl
-                0x00000000       0x20 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x60 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOIdleModeConfigure
-                0x00000000       0x20 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x60 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIOGatingRatioConfigure
-                0x00000000       0x20 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x60 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIODebounceFuncControl
-                0x00000000       0x20 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x78 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIODebounceTimeConfig
-                0x00000000        0xc ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x34 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.GPIORevisionInfoGet
-                0x00000000        0x8 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x28 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.gpioContextSave
-                0x00000000       0x1c ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000000       0x5c ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .text.gpioContextRestore
-                0x00000000       0x1c ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .text          0x00000000        0x0 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .data          0x00000000        0x0 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+                0x00000000       0x5c ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .text          0x00000000        0x0 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
  .text.GPIO0ModuleClkConfig
-                0x00000000       0xdc ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+                0x00000000      0x148 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
  .text.GPIO1PinMuxSetup
-                0x00000000       0x1c ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+                0x00000000       0x38 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
  .text.GpioPinMuxSetup
-                0x00000000       0x10 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
- .text          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .rodata.AM335X_VECTOR_BASE
-                0x00000000        0x4 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
- .text          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x34 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
+ .text          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+ .text          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntDefaultHandler
-                0x00000000        0x4 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x14 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntRegister
-                0x00000000       0x10 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x34 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntUnRegister
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x34 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntAINTCInit
-                0x00000000       0x54 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x90 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntPrioritySet
-                0x00000000       0x24 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x50 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSystemEnable
-                0x00000000       0x24 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x4c ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSystemDisable
-                0x00000000       0x24 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x4c ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntIfClkFreeRunSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntIfClkAutoGateSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntActiveIrqNumGet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x28 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSpurIrqFlagGet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x28 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntProtectionEnable
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntProtectionDisable
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSyncClkFreeRunSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSyncClkAutoGateSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntFuncClkFreeRunSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntFuncClkAutoGateSet
-                0x00000000       0x18 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntCurrIrqPriorityGet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x28 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntPriorityThresholdGet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x28 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntPriorityThresholdSet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x30 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntRawStatusGet
-                0x00000000       0x24 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x5c ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSoftwareIntSet
-                0x00000000       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x48 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntSoftwareIntClear
-                0x00000000       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x48 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntPendingIrqMaskedStatusGet
-                0x00000000       0x24 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x58 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntMasterIRQEnable
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntMasterIRQDisable
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntMasterFIQEnable
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntMasterFIQDisable
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntMasterStatusGet
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x20 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntDisable
-                0x00000000       0x28 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x00000000       0x3c ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .text.IntEnable
-                0x00000000       0x1c ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
- .text          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .data          0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .bss           0x00000000        0x0 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x38 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+ .text          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .bss           0x00000000        0x0 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .text.CPUSwitchToPrivilegedMode
-                0x00000000        0x8 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .text.CPUSwitchToUserMode
-                0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .text.CPUAbortHandler
-                0x00000000        0x4 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x14 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .text.CPUIntStatus
-                0x00000000        0xc ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .text.CPUirqd  0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .text.CPUirqe  0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .text.CPUfiqd  0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .text.CPUfiqe  0x00000000       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_info    0x00000000       0xef ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_abbrev  0x00000000       0x64 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x2c ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .text.CPUirqd  0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .text.CPUirqe  0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqd  0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqe  0x00000000       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_info    0x00000000       0xf8 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_abbrev  0x00000000       0x64 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_loc     0x00000000      0x160 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .debug_aranges
-                0x00000000       0x58 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_ranges  0x00000000       0x48 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_line    0x00000000       0xd7 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_str     0x00000000      0x152 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .comment       0x00000000       0x71 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x58 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_ranges  0x00000000       0x48 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_line    0x00000000       0xdf ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_str     0x00000000      0x152 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .comment       0x00000000       0x71 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .ARM.attributes
-                0x00000000       0x3d ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
- .debug_frame   0x00000000       0x90 ./bin/lib/ti/system_config/release/libsystem_config.a(cpu.o)
+                0x00000000       0x3d ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
+ .debug_frame   0x00000000       0xd4 ./bin/lib/ti/system_config/debug/libsystem_config.a(cpu.o)
  .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
  .data          0x00000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
@@ -217,244 +216,249 @@ LOAD main.o
 .startcode      0x80000000       0xb4
                 0x80000000                . = ALIGN (0x4)
  *init.o(.text)
- .text          0x80000000       0xb4 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
+ .text          0x80000000       0xb4 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
                 0x80000000                Entry
 
-.text           0x800000b4      0xa20
+.text           0x800000b4      0xc34
                 0x800000b4                . = ALIGN (0x4)
  *(.text*)
- .text.startup.main
-                0x800000b4       0xbc main.o
+ .text.main     0x800000b4       0xc8 main.o
                 0x800000b4                main
+ .text.Delay    0x8000017c       0x44 main.o
  .text.GPIOModuleReset
-                0x80000170       0x20 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
-                0x80000170                GPIOModuleReset
+                0x800001c0       0x54 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+                0x800001c0                GPIOModuleReset
  .text.GPIOModuleEnable
-                0x80000190       0x10 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
-                0x80000190                GPIOModuleEnable
+                0x80000214       0x38 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+                0x80000214                GPIOModuleEnable
  .text.GPIODirModeSet
-                0x800001a0       0x1c ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
-                0x800001a0                GPIODirModeSet
+                0x8000024c       0x88 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+                0x8000024c                GPIODirModeSet
  .text.GPIOPinWrite
-                0x800001bc       0x1c ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
-                0x800001bc                GPIOPinWrite
+                0x800002d4       0x64 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+                0x800002d4                GPIOPinWrite
  .text.GPIO1Pin23PinMuxSetup
-                0x800001d8       0x14 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
-                0x800001d8                GPIO1Pin23PinMuxSetup
+                0x80000338       0x24 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+                0x80000338                GPIO1Pin23PinMuxSetup
  .text.GPIO1ModuleClkConfig
-                0x800001ec       0x78 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
-                0x800001ec                GPIO1ModuleClkConfig
+                0x8000035c       0xbc ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+                0x8000035c                GPIO1ModuleClkConfig
  .text.start_boot
-                0x80000264       0x60 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
-                0x80000264                start_boot
- .text          0x800002c4      0x488 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
-                0x800002c4                CP15ICacheDisable
-                0x800002e0                CP15DCacheDisable
-                0x800002fc                CP15ICacheEnable
-                0x8000030c                CP15DCacheEnable
-                0x8000031c                CP15DCacheFlush
-                0x800003b0                CP15DCacheClean
-                0x80000444                CP15DCacheCleanFlush
-                0x800004d8                CP15ICacheFlush
-                0x800004e8                CP15DCacheCleanBuff
-                0x8000053c                CP15DCacheCleanFlushBuff
-                0x80000590                CP15DCacheFlushBuff
-                0x800005f4                CP15ICacheFlushBuff
-                0x80000648                CP15Ttb0Set
-                0x80000654                CP15TlbInvalidate
-                0x80000660                CP15MMUDisable
-                0x80000678                CP15MMUEnable
-                0x8000068c                CP15VectorBaseAddrSet
-                0x80000698                CP15BranchPredictorInvalidate
-                0x800006a4                CP15BranchPredictionEnable
-                0x800006b4                CP15BranchPredictionDisable
-                0x800006c4                CP15DomainAccessClientSet
-                0x800006d4                CP15ControlFeatureDisable
-                0x800006e8                CP15ControlFeatureEnable
-                0x800006fc                CP15TtbCtlTtb0Config
-                0x8000070c                CP15AuxControlFeatureEnable
-                0x80000720                CP15AuxControlFeatureDisable
-                0x80000734                CP15MainIdPrimPartNumGet
- .text          0x8000074c       0xf0 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
-                0x8000074c                SVC_Handler
-                0x80000774                IRQHandler
-                0x80000820                FIQHandler
-                0x80000824                UndefInstHandler
-                0x80000824                AbortHandler
- .text          0x8000083c      0x114 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
-                0x8000083c                __udivsi3
-                0x8000083c                __aeabi_uidiv
-                0x80000930                __aeabi_uidivmod
- .text          0x80000950      0x148 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
-                0x80000950                __aeabi_idiv
-                0x80000950                __divsi3
-                0x80000a78                __aeabi_idivmod
- .text          0x80000a98        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
-                0x80000a98                __aeabi_ldiv0
-                0x80000a98                __aeabi_idiv0
+                0x80000418       0x24 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+                0x80000418                start_boot
+ .text.CopyVectorTable
+                0x8000043c       0x98 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .text          0x800004d4      0x488 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+                0x800004d4                CP15ICacheDisable
+                0x800004f0                CP15DCacheDisable
+                0x8000050c                CP15ICacheEnable
+                0x8000051c                CP15DCacheEnable
+                0x8000052c                CP15DCacheFlush
+                0x800005c0                CP15DCacheClean
+                0x80000654                CP15DCacheCleanFlush
+                0x800006e8                CP15ICacheFlush
+                0x800006f8                CP15DCacheCleanBuff
+                0x8000074c                CP15DCacheCleanFlushBuff
+                0x800007a0                CP15DCacheFlushBuff
+                0x80000804                CP15ICacheFlushBuff
+                0x80000858                CP15Ttb0Set
+                0x80000864                CP15TlbInvalidate
+                0x80000870                CP15MMUDisable
+                0x80000888                CP15MMUEnable
+                0x8000089c                CP15VectorBaseAddrSet
+                0x800008a8                CP15BranchPredictorInvalidate
+                0x800008b4                CP15BranchPredictionEnable
+                0x800008c4                CP15BranchPredictionDisable
+                0x800008d4                CP15DomainAccessClientSet
+                0x800008e4                CP15ControlFeatureDisable
+                0x800008f8                CP15ControlFeatureEnable
+                0x8000090c                CP15TtbCtlTtb0Config
+                0x8000091c                CP15AuxControlFeatureEnable
+                0x80000930                CP15AuxControlFeatureDisable
+                0x80000944                CP15MainIdPrimPartNumGet
+ .text          0x8000095c       0xf0 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+                0x8000095c                SVC_Handler
+                0x80000984                IRQHandler
+                0x80000a30                FIQHandler
+                0x80000a34                UndefInstHandler
+                0x80000a34                AbortHandler
+ .text          0x80000a4c      0x114 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x80000a4c                __udivsi3
+                0x80000a4c                __aeabi_uidiv
+                0x80000b40                __aeabi_uidivmod
+ .text          0x80000b60      0x148 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x80000b60                __aeabi_idiv
+                0x80000b60                __divsi3
+                0x80000c88                __aeabi_idivmod
+ .text          0x80000ca8        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x80000ca8                __aeabi_ldiv0
+                0x80000ca8                __aeabi_idiv0
  *(.rodata*)
+ .rodata.AM335X_VECTOR_BASE
+                0x80000cac        0x4 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+                0x80000cac                AM335X_VECTOR_BASE
  .rodata.vecTbl
-                0x80000a9c       0x38 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
+                0x80000cb0       0x38 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
 
-.glue_7         0x80000ad4        0x0
+.glue_7         0x80000ce8        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x80000ad4        0x0
+.glue_7t        0x80000ce8        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x80000ad4        0x0
+.vfp11_veneer   0x80000ce8        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x80000ad4        0x0
+.v4_bx          0x80000ce8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x80000ad4        0x0
+.iplt           0x80000ce8        0x0
  .iplt          0x00000000        0x0 main.o
 
-.rel.dyn        0x80000ad4        0x0
+.rel.dyn        0x80000ce8        0x0
  .rel.iplt      0x00000000        0x0 main.o
 
-.data           0x80000ad4        0x0
-                0x80000ad4                . = ALIGN (0x4)
+.data           0x80000ce8        0x0
+                0x80000ce8                . = ALIGN (0x4)
  *(.data*)
 
-.igot.plt       0x80000ad4        0x0
+.igot.plt       0x80000ce8        0x0
  .igot.plt      0x00000000        0x0 main.o
 
-.bss            0x80000ad4      0x200
-                0x80000ad4                . = ALIGN (0x4)
-                0x80000ad4                _bss_start = .
+.bss            0x80000ce8      0x200
+                0x80000ce8                . = ALIGN (0x4)
+                0x80000ce8                _bss_start = .
  *(.bss*)
  *(COMMON)
- COMMON         0x80000ad4      0x200 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
-                0x80000ad4                fnRAMVectors
-                0x80000cd4                _bss_end = .
+ COMMON         0x80000ce8      0x200 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+                0x80000ce8                fnRAMVectors
+                0x80000ee8                _bss_end = .
 
-.heap           0x80000cd4      0x800
-                0x80000cd4                . = ALIGN (0x4)
-                0x80000cd4                __end__ = .
-                0x80000cd4                end = __end__
-                0x80000cd4                __HeapBase = __end__
+.heap           0x80000ee8      0x800
+                0x80000ee8                . = ALIGN (0x4)
+                0x80000ee8                __end__ = .
+                0x80000ee8                end = __end__
+                0x80000ee8                __HeapBase = __end__
  *(.heap*)
-                0x800014d4                . = (. + 0x800)
- *fill*         0x80000cd4      0x800 00
-                0x800014d4                __HeapLimit = .
+                0x800016e8                . = (. + 0x800)
+ *fill*         0x80000ee8      0x800 00
+                0x800016e8                __HeapLimit = .
 
-.stack          0x800014d4  0x7fffff8
-                0x800014d4                . = ALIGN (0x4)
-                0x800014d4                __StackLimit = .
+.stack          0x800016e8  0x7fffff8
+                0x800016e8                . = ALIGN (0x4)
+                0x800016e8                __StackLimit = .
  *(.stack*)
-                0x880014cc                . = (. + 0x7fffff8)
- *fill*         0x800014d4  0x7fffff8 00
-                0x880014cc                __StackTop = .
-                0x880014cc                _stack = __StackTop
-LOAD ./bin/lib/ti/drivers/release/libdrivers.a
-LOAD ./bin/lib/ti/utils/release/libutils.a
-LOAD ./bin/lib/ti/platform/release/libplatform.a
-LOAD ./bin/lib/ti/system_config/release/libsystem_config.a
+                0x880016e0                . = (. + 0x7fffff8)
+ *fill*         0x800016e8  0x7fffff8 00
+                0x880016e0                __StackTop = .
+                0x880016e0                _stack = __StackTop
+LOAD ./bin/lib/ti/drivers/debug/libdrivers.a
+LOAD ./bin/lib/ti/utils/debug/libutils.a
+LOAD ./bin/lib/ti/platform/debug/libplatform.a
+LOAD ./bin/lib/ti/system_config/debug/libsystem_config.a
 LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
 LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
 OUTPUT(app.out elf32-littlearm)
 
-.debug_info     0x00000000     0x118f
- .debug_info    0x00000000       0xfc main.o
- .debug_info    0x000000fc      0x78f ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_info    0x0000088b       0xd7 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_info    0x00000962       0xb5 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
- .debug_info    0x00000a17      0x116 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_info    0x00000b2d       0xb5 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
- .debug_info    0x00000be2       0xc8 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
- .debug_info    0x00000caa      0x4e5 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+.debug_info     0x00000000     0x1096
+ .debug_info    0x00000000       0x85 main.o
+ .debug_info    0x00000085      0x7b3 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_info    0x00000838       0xdd ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_info    0x00000915       0xb5 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
+ .debug_info    0x000009ca       0xe0 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_info    0x00000aaa       0xb5 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+ .debug_info    0x00000b5f       0xc8 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+ .debug_info    0x00000c27      0x46f ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
-.debug_abbrev   0x00000000      0x5a8
- .debug_abbrev  0x00000000       0xae main.o
- .debug_abbrev  0x000000ae      0x142 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_abbrev  0x000001f0       0x89 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_abbrev  0x00000279       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
- .debug_abbrev  0x0000028d       0xe8 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_abbrev  0x00000375       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
- .debug_abbrev  0x00000389       0x14 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
- .debug_abbrev  0x0000039d      0x20b ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+.debug_abbrev   0x00000000      0x4b2
+ .debug_abbrev  0x00000000       0x72 main.o
+ .debug_abbrev  0x00000072      0x124 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_abbrev  0x00000196       0x7a ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_abbrev  0x00000210       0x14 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
+ .debug_abbrev  0x00000224       0xa4 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_abbrev  0x000002c8       0x14 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x000002dc       0x14 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+ .debug_abbrev  0x000002f0      0x1c2 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
-.debug_loc      0x00000000      0x7c8
- .debug_loc     0x00000000       0x46 main.o
- .debug_loc     0x00000046      0x4d1 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_loc     0x00000517       0x35 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_loc     0x0000054c       0x34 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_loc     0x00000580      0x248 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+.debug_loc      0x00000000      0xbdc
+ .debug_loc     0x00000000       0x58 main.o
+ .debug_loc     0x00000058      0x4fc ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_loc     0x00000554       0xdc ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_loc     0x00000630       0x58 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_loc     0x00000688      0x554 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
-.debug_aranges  0x00000000      0x2f0
+.debug_aranges  0x00000000      0x300
  .debug_aranges
-                0x00000000       0x20 main.o
+                0x00000000       0x28 main.o
  .debug_aranges
-                0x00000020      0x100 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000028      0x100 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .debug_aranges
-                0x00000120       0x40 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+                0x00000128       0x40 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
  .debug_aranges
-                0x00000160       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
+                0x00000168       0x20 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
  .debug_aranges
-                0x00000180       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
+                0x00000188       0x28 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
  .debug_aranges
-                0x000001a0       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
+                0x000001b0       0x20 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
  .debug_aranges
-                0x000001c0       0x20 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
+                0x000001d0       0x20 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
  .debug_aranges
-                0x000001e0      0x110 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x000001f0      0x110 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
-.debug_ranges   0x00000000      0x270
- .debug_ranges  0x00000000       0x10 main.o
- .debug_ranges  0x00000010       0xf0 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_ranges  0x00000100       0x30 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_ranges  0x00000130       0x10 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_ranges  0x00000140      0x130 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+.debug_ranges   0x00000000      0x250
+ .debug_ranges  0x00000000       0x18 main.o
+ .debug_ranges  0x00000018       0xf0 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_ranges  0x00000108       0x30 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_ranges  0x00000138       0x18 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_ranges  0x00000150      0x100 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
-.debug_line     0x00000000      0xa17
- .debug_line    0x00000000       0x4e main.o
- .debug_line    0x0000004e      0x2dd ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_line    0x0000032b       0xed ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_line    0x00000418       0x94 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
- .debug_line    0x000004ac       0x77 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_line    0x00000523      0x18b ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
- .debug_line    0x000006ae       0xba ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
- .debug_line    0x00000768      0x2af ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+.debug_line     0x00000000      0xacc
+ .debug_line    0x00000000       0x6f main.o
+ .debug_line    0x0000006f      0x2fc ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_line    0x0000036b      0x135 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_line    0x000004a0       0x94 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
+ .debug_line    0x00000534       0x97 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_line    0x000005cb      0x18b ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
+ .debug_line    0x00000756       0xba ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
+ .debug_line    0x00000810      0x2bc ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
 .debug_str      0x00000000      0x8ae
  .debug_str     0x00000000       0xbe main.o
- .debug_str     0x000000be      0x37f ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+ .debug_str     0x000000be      0x37f ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
                                 0x3d5 (size before relaxing)
- .debug_str     0x0000043d       0xf7 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+ .debug_str     0x0000043d       0xf7 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
                                 0x164 (size before relaxing)
- .debug_str     0x00000534       0xcd ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
+ .debug_str     0x00000534       0xcd ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
                                 0x140 (size before relaxing)
- .debug_str     0x00000601      0x2ad ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+ .debug_str     0x00000601      0x2ad ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
                                 0x38b (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 main.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .comment       0x00000000       0x71 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .comment       0x00000000       0x71 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .comment       0x00000000       0x71 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+ .comment       0x00000000       0x71 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .comment       0x00000000       0x71 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .comment       0x00000000       0x71 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .comment       0x00000000       0x71 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
 
 .ARM.attributes
                 0x00000000       0x3b
  .ARM.attributes
                 0x00000000       0x37 main.o
  .ARM.attributes
-                0x00000037       0x37 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
+                0x00000037       0x37 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
  .ARM.attributes
-                0x0000006e       0x37 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
+                0x0000006e       0x37 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
  .ARM.attributes
-                0x000000a5       0x23 ./bin/lib/ti/system_config/release/libsystem_config.a(init.o)
+                0x000000a5       0x23 ./bin/lib/ti/system_config/debug/libsystem_config.a(init.o)
  .ARM.attributes
-                0x000000c8       0x3d ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
+                0x000000c8       0x3d ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
  .ARM.attributes
-                0x00000105       0x23 ./bin/lib/ti/system_config/release/libsystem_config.a(cp15.o)
+                0x00000105       0x23 ./bin/lib/ti/system_config/debug/libsystem_config.a(cp15.o)
  .ARM.attributes
-                0x00000128       0x23 ./bin/lib/ti/system_config/release/libsystem_config.a(exceptionhandler.o)
+                0x00000128       0x23 ./bin/lib/ti/system_config/debug/libsystem_config.a(exceptionhandler.o)
  .ARM.attributes
-                0x0000014b       0x3d ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
+                0x0000014b       0x3d ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
  .ARM.attributes
                 0x00000188       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
  .ARM.attributes
@@ -462,11 +466,11 @@ OUTPUT(app.out elf32-littlearm)
  .ARM.attributes
                 0x000001b8       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
 
-.debug_frame    0x00000000      0x508
- .debug_frame   0x00000000       0x28 main.o
- .debug_frame   0x00000028      0x1e0 ./bin/lib/ti/drivers/release/libdrivers.a(gpio_v2.o)
- .debug_frame   0x00000208       0x60 ./bin/lib/ti/platform/release/libplatform.a(gpio.o)
- .debug_frame   0x00000268       0x28 ./bin/lib/ti/system_config/release/libsystem_config.a(startup.o)
- .debug_frame   0x00000290      0x238 ./bin/lib/ti/system_config/release/libsystem_config.a(interrupt.o)
- .debug_frame   0x000004c8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
- .debug_frame   0x000004e8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+.debug_frame    0x00000000      0x730
+ .debug_frame   0x00000000       0x44 main.o
+ .debug_frame   0x00000044      0x2c8 ./bin/lib/ti/drivers/debug/libdrivers.a(gpio_v2.o)
+ .debug_frame   0x0000030c       0x88 ./bin/lib/ti/platform/debug/libplatform.a(gpio.o)
+ .debug_frame   0x00000394       0x48 ./bin/lib/ti/system_config/debug/libsystem_config.a(startup.o)
+ .debug_frame   0x000003dc      0x314 ./bin/lib/ti/system_config/debug/libsystem_config.a(interrupt.o)
+ .debug_frame   0x000006f0       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000710       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
