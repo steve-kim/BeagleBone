@@ -38,16 +38,29 @@ EVM=beaglebone
 
 TARGET_MODE=Release
 
-CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a
-CFLAGS+=-c -g -O2 -mlong-calls -fdata-sections -funsigned-char \
+FREERTOS_SOURCE=${FREERTOS_SRC}/list.o \
+                ${FREERTOS_SRC}/queue.o \
+                ${FREERTOS_SRC}/tasks.o \
+                ${FREERTOS_PORT_SRC}/port.o \
+                ${FREERTOS_PORT_SRC}/portASM.o 
+
+DEMO_SOURCE=${ROOT}/applications/main.o \
+            ${ROOT}/applications/freertos_hooks.o
+
+#CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a
+#CFLAGS+=-c -g -O2 -mlong-calls -fdata-sections -funsigned-char \
             -ffunction-sections -Wall -Dgcc -D${DEVICE} -D${EVM} \
             -DSUPPORT_UNALIGNED -DMMCSD -DUARTCONSOLE
-app: main.o
-	$(LD) -o $@.out $< -T bbb.ld -Map bbb.map $(LPATH) $(APP_LIB) $(LDFLAGS) $(RUNTIMELIB) -L. \
+app: ${FREERTOS_SOURCE} ${DEMO_SOURCE}
+	$(LD) -o $@.out $^ -T bbb.ld -Map bbb.map $(LPATH) $(APP_LIB) $(LDFLAGS) $(RUNTIMELIB) -L. \
 		 -L$(LIB_GCC) -L$(LIB_C)
 	$(BIN) $(BINFLAGS) $@.out $@.bin
 	gcc $(TI_TOOLS)tiimage.c -o a.out;
 	./a.out $(IMG_LOAD_ADDR) NONE $@.bin $@_ti.bin; mv $@_ti.bin $@
 
-main.o: main.c
-	$(GCC) $(CFLAGS) $(IPATH) $< -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) $(IPATH) $< -o $@
+
+portASM.o: portASM.S
+	$(CC) $(CFLAGS) $(IPATH) $< -o $@
+
