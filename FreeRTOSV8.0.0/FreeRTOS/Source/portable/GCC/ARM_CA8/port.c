@@ -349,7 +349,8 @@ uint32_t ulAPSR;
 			portCPU_IRQ_DISABLE();
 
 			/* Start the timer that generates the tick ISR. */
-			configSETUP_TICK_INTERRUPT();
+			//We need to turn this back on when we actually implement this
+			//configSETUP_TICK_INTERRUPT();
 
 			/* Start the first task executing. */
 			vPortRestoreTaskContext();

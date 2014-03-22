@@ -88,7 +88,9 @@ the queue empty. */
 /* The LED toggled by the Rx task. */
 //#define mainTASK_LED                                            ( 0 )
 
-
+//Adding in this counter for now to get past compile errors
+//We will need to actually implement this tick count somehow
+volatile uint32_t ulHighFrequencyTimerCounts = 0;
 /*****************************************************************************
 **                INTERNAL MACRO DEFINITIONS
 *****************************************************************************/
@@ -245,5 +247,9 @@ const unsigned long ulExpectedValue = 100UL;
         }
 }
 
+//Function stub to get rid of compile time errors.
+//Need to implement this functionality somehow
+void vApplicationIRQHandler( uint32_t ulICCIAR ) {
+}
 
 /******************************* End of file *********************************/
