@@ -221,6 +221,7 @@ volatile unsigned long ul = 0;
 
 void vApplicationTickHook( void )
 {
+	#if 0
 	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
 	{
 		/* The full demo includes a software timer demo/test that requires
@@ -233,6 +234,7 @@ void vApplicationTickHook( void )
 		/* Call the periodic event group from ISR demo. */
 		vPeriodicEventGroupsProcessing();
 	}
+	#endif
 	#endif
 }
 /*-----------------------------------------------------------*/

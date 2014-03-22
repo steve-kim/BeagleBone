@@ -76,6 +76,8 @@ UTILITY_BLD=${ROOT}/build/utils
 #NANDLIB_BLD=${ROOT}/build/${TARGET}/${COMPILER}/nandlib
 MMCSDLIB_BLD=${ROOT}/build/mmcsdlib
 #NORLIB_BLD=${ROOT}/build/${TARGET}/${COMPILER}/norlib
+#Need to make FreeRTOS too
+FREERTOS_BLD=${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source
 
 #
 # Pre/recompiled library paths
@@ -100,6 +102,10 @@ SYSCONFIG_SRC=${ROOT}/system_config/${TARGET}
 UTILITY_SRC=${ROOT}/utils
 MMCSDLIB_SRC=${ROOT}/mmcsdlib
 FATFS_SRC=${ROOT}/third_party/fatfs
+# Path to FreeRTOS source
+FREERTOS_SRC=${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source
+FREERTOS_PORT_SRC=${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8
+FREERTOS_HEAP_SRC=${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang
 
 #
 # Include paths
@@ -111,6 +117,9 @@ IPATH=-I${ROOT}/include \
       -I${ROOT}/mmcsdlib/include \
       -I${ROOT}/bootloader/include \
       -I${ROOT}third_party/fatfs/src \
+      -I${ROOT}/applications/include \
+      -I${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source/include/ \
+      -I${ROOT}/../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/ \
       -I"${LIB_PATH}/include"
 
 #
@@ -154,7 +163,11 @@ CFLAGS+=--specs=rdimon.specs
 RUNTIMELIB = -lrdimon -lc -lgcc
 endif
 
-CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a
+#EXTRA COMMENTS BY STEVE KIM
+#CFLAGS to use during compilation. I am getting an error 'selected processor does not support ARM mode'
+#Apparently the fix is to pass it an extra parameter specifying the FPU. This is done through
+#'-mfpu=neon'
+CFLAGS=-mcpu=cortex-a8 -mtune=cortex-a8 -march=armv7-a -mfloat-abi=softfp -mfpu=neon
 CFLAGS+=-c ${${TARGET_MODE}_FLAG} -mlong-calls -fdata-sections -funsigned-char \
             -ffunction-sections -Wall ${IPATH} -Dgcc ${DEVICE_D} ${EVM_D} \
             -D SUPPORT_UNALIGNED -D ${BOOT} -D${CONSOLE}

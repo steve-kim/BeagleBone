@@ -164,7 +164,7 @@ comes from the ulHighFrequencyTimerCounts variable which is incremented in a
 high frequency timer that is already being started as part of the interrupt
 nesting test. */
 #define configGENERATE_RUN_TIME_STATS	1
-extern volatile uint32_t ulHighFrequencyTimerCounts;
+//extern volatile uint32_t ulHighFrequencyTimerCounts;
 #define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()
 #define portGET_RUN_TIME_COUNTER_VALUE() ulHighFrequencyTimerCounts
 

@@ -12,73 +12,73 @@ Archive member included because of file (symbol)
                               ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o) (fnRAMVectors)
 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
                               ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o) (CPUAbortHandler)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
                               ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o (sprintf)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
                               ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o (strlen)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o) (_svfprintf_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_dtoa_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o) (_impure_ptr)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_localeconv_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_malloc_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (memchr)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (__malloc_lock)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (_Balloc)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__fpclassifyd)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (_sbrk_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o) (strcmp)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__ssprint_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o) (_calloc_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (_free_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o) (memmove)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o) (_realloc_r)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o) (errno)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o) (_impure_ptr)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (_malloc_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (memchr)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (__malloc_lock)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (_Balloc)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__fpclassifyd)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (_sbrk_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o) (strcmp)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o) (_calloc_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o) (_free_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o) (memmove)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o) (_realloc_r)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o) (errno)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
                               (__aeabi_uidiv)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
                               (__aeabi_idiv)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_dsub)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_dmul)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o) (__divdi3)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o) (__udivdi3)
-/opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
-                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o) (__clzsi2)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o) (__divdi3)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o) (__udivdi3)
+/opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
+                              /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o) (__clzsi2)
 
 Allocating common symbols
 Common symbol       size              file
 
-errno               0x4               /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
+errno               0x4               /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
 xQueueRegistry      0x40              ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
 fnRAMVectors        0x200             ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
@@ -96,8 +96,6 @@ Discarded input sections
                 0x0000000000000000       0xb4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueGiveMutexRecursive
                 0x0000000000000000       0x84 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
- .text.xQueueGenericSendFromISR
-                0x0000000000000000      0x1a8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueTakeMutexRecursive
                 0x0000000000000000       0x88 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueReceiveFromISR
@@ -122,12 +120,8 @@ Discarded input sections
                 0x0000000000000000       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueIsQueueFullFromISR
                 0x0000000000000000       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
- .text.vQueueAddToRegistry
-                0x0000000000000000       0x4c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.vQueueUnregisterQueue
                 0x0000000000000000       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
- .text.vQueueWaitForMessageRestricted
-                0x0000000000000000       0x78 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueCreateSet
                 0x0000000000000000       0x1c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueAddToSet
@@ -138,7 +132,6 @@ Discarded input sections
                 0x0000000000000000       0x30 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueSelectFromSetFromISR
                 0x0000000000000000       0x2c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
- COMMON         0x0000000000000000       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .data          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss           0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
@@ -168,14 +161,10 @@ Discarded input sections
                 0x0000000000000000       0xc8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.uxTaskGetSystemState
                 0x0000000000000000      0x188 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .text.vTaskSwitchContext
-                0x0000000000000000      0x184 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.vTaskSuspend
                 0x0000000000000000      0x164 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.vTaskPlaceOnUnorderedEventList
                 0x0000000000000000      0x108 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .text.vTaskPlaceOnEventListRestricted
-                0x0000000000000000       0xa8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.xTaskRemoveFromUnorderedEventList
                 0x0000000000000000       0xf4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.uxTaskGetTaskNumber
@@ -188,25 +177,43 @@ Discarded input sections
                 0x0000000000000000      0x154 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.uxTaskResetEventItemValue
                 0x0000000000000000       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .bss.ulTotalRunTime
-                0x0000000000000000        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .rodata.ucExpectedStackBytes.6014
-                0x0000000000000000       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .rodata.CSWTCH.260
                 0x0000000000000000        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .bss.ulTaskSwitchedInTime
-                0x0000000000000000        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .text          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .data          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss           0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.xTimerCreate
+                0x0000000000000000       0x90 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.xTimerIsTimerActive
+                0x0000000000000000       0x34 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.pvTimerGetTimerID
+                0x0000000000000000        0x8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.xTimerPendFunctionCallFromISR
+                0x0000000000000000       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.xTimerPendFunctionCall
+                0x0000000000000000       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .data          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .bss           0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .text.vPortEndScheduler
+                0x0000000000000000       0x34 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .text.FreeRTOS_Tick_Handler
+                0x0000000000000000       0x94 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .text.vPortTaskUsesFPU
+                0x0000000000000000       0x1c ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .data          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+ .bss           0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+ .text          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .data          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss           0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
  .text          0x0000000000000000        0x0 ../applications/main.o
  .data          0x0000000000000000        0x0 ../applications/main.o
  .bss           0x0000000000000000        0x0 ../applications/main.o
  .text          0x0000000000000000        0x0 ../applications/freertos_hooks.o
  .data          0x0000000000000000        0x0 ../applications/freertos_hooks.o
  .bss           0x0000000000000000        0x0 ../applications/freertos_hooks.o
- .text.vApplicationMallocFailedHook
-                0x0000000000000000       0x14 ../applications/freertos_hooks.o
- .text.vApplicationStackOverflowHook
-                0x0000000000000000       0x14 ../applications/freertos_hooks.o
- .text.memcmp   0x0000000000000000       0x54 ../applications/freertos_hooks.o
  .data          0x0000000000000000        0x0 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
  .bss           0x0000000000000000        0x0 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
  .text          0x0000000000000000        0x0 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
@@ -309,320 +316,320 @@ Discarded input sections
  .ARM.attributes
                 0x0000000000000000       0x3d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
  .debug_frame   0x0000000000000000       0x90 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
  .text._sprintf_r
-                0x0000000000000000       0x68 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
- .text.sprintf  0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+                0x0000000000000000       0x68 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .text.sprintf  0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000000000       0x5c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
- .text.strlen   0x0000000000000000       0x60 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000000000       0x5c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sprintf.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000000000       0x60 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
- .debug_frame   0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strlen.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
  .text._svfprintf_r
-                0x0000000000000000     0x1f80 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                0x0000000000000000     0x1f80 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
  .rodata.str1.4
-                0x0000000000000000       0x44 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                0x0000000000000000       0x44 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
  .rodata.zeroes.6721
-                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
  .rodata.blanks.6720
-                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
- .debug_frame   0x0000000000000000       0x3c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .text.quorem   0x0000000000000000      0x1e0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .text._dtoa_r  0x0000000000000000     0x1698 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x0000000000000000       0x3c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfprintf.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .text.quorem   0x0000000000000000      0x1e0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x0000000000000000     0x1698 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
  .rodata.str1.4
-                0x0000000000000000       0x14 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+                0x0000000000000000       0x14 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .debug_frame   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .debug_frame   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-dtoa.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
  .data.impure_data
-                0x0000000000000000      0x428 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x0000000000000000      0x428 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
  .data._impure_ptr
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
  .rodata.str1.4
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-impure.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text._setlocale_r
-                0x0000000000000000       0x6c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x6c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.__locale_charset
-                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.__locale_mb_cur_max
-                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.__locale_msgcharset
-                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.__locale_cjk_lang
-                0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text._localeconv_r
-                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.setlocale
-                0x0000000000000000       0x1c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x1c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .text.localeconv
-                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .data.lc_message_charset
-                0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .bss._PathLocale
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .bss.__nlocale_changed
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .bss.__mlocale_changed
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
- .data.lconv    0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+ .data.lconv    0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .rodata.str1.4
-                0x0000000000000000       0x14 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x14 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .data.lc_ctype_charset
-                0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .data.__mb_cur_max
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
- .debug_frame   0x0000000000000000       0x98 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-locale.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+ .debug_frame   0x0000000000000000       0x98 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-locale.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .text._malloc_r
-                0x0000000000000000      0x73c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000      0x73c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .data.__malloc_av_
-                0x0000000000000000      0x408 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000      0x408 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .data.__malloc_trim_threshold
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .bss.__malloc_max_total_mem
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .bss.__malloc_max_sbrked_mem
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .bss.__malloc_top_pad
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .bss.__malloc_current_mallinfo
-                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .data.__malloc_sbrk_base
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
- .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
- .text.memchr   0x0000000000000000      0x11c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mallocr.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+ .text.memchr   0x0000000000000000      0x11c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
- .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memchr.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memchr.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
  .text.__malloc_lock
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
  .text.__malloc_unlock
-                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+                0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
- .debug_frame   0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mlock.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text._Balloc  0x0000000000000000       0x8c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text._Bfree   0x0000000000000000       0x1c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text._Balloc  0x0000000000000000       0x8c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text._Bfree   0x0000000000000000       0x1c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__multadd
-                0x0000000000000000       0xdc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__s2b    0x0000000000000000       0xf0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0xdc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__s2b    0x0000000000000000       0xf0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__hi0bits
-                0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__lo0bits
-                0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__i2b    0x0000000000000000       0x24 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__i2b    0x0000000000000000       0x24 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__multiply
-                0x0000000000000000      0x1e4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000      0x1e4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__pow5mult
-                0x0000000000000000       0xf4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0xf4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__lshift
-                0x0000000000000000      0x104 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__mcmp   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__mdiff  0x0000000000000000      0x14c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__ulp    0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__b2d    0x0000000000000000       0xcc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__d2b    0x0000000000000000      0x108 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text.__ratio  0x0000000000000000       0x90 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000      0x104 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__mcmp   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__mdiff  0x0000000000000000      0x14c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__ulp    0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__b2d    0x0000000000000000       0xcc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__d2b    0x0000000000000000      0x108 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text.__ratio  0x0000000000000000       0x90 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text._mprec_log10
-                0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__copybits
-                0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .text.__any_on
-                0x0000000000000000       0x88 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x88 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .rodata.p05.5242
-                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000        0xc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .rodata.__mprec_tens
-                0x0000000000000000       0xc8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0xc8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .rodata.__mprec_tinytens
-                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+                0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .debug_frame   0x0000000000000000      0x220 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-mprec.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .debug_frame   0x0000000000000000      0x220 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-mprec.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
  .text.__fpclassifyd
-                0x0000000000000000       0x6c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+                0x0000000000000000       0x6c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
- .debug_frame   0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
- .text._sbrk_r  0x0000000000000000       0x40 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-s_fpclassify.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x40 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
- .text.strcmp   0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .text.strcmp   0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
  .text.strcmp_unaligned
-                0x0000000000000000      0x19c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+                0x0000000000000000      0x19c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .text.__ssprint_r
-                0x0000000000000000      0x1a4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000      0x1a4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .text._svfiprintf_r
-                0x0000000000000000     0x1080 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000     0x1080 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .rodata.zeroes.6665
-                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .rodata.str1.4
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .rodata.blanks.6664
-                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+                0x0000000000000000       0x10 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
- .debug_frame   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x0000000000000000       0x64 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-svfiprintf.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
  .text._calloc_r
-                0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+                0x0000000000000000       0x94 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
- .debug_frame   0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-callocr.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+ .debug_frame   0x0000000000000000       0x28 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-callocr.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
  .text._malloc_trim_r
-                0x0000000000000000       0xfc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
- .text._free_r  0x0000000000000000      0x26c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
+                0x0000000000000000       0xfc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+ .text._free_r  0x0000000000000000      0x26c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
- .debug_frame   0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-freer.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
- .text.memmove  0x0000000000000000      0x134 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000000000       0x50 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-freer.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000      0x134 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
- .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-memmove.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
  .text._realloc_r
-                0x0000000000000000      0x574 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+                0x0000000000000000      0x574 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
- .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
- .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reallocr.o)
+ .text          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
  .text.cleanup_glue
-                0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
+                0x0000000000000000       0x2c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
  .text._reclaim_reent
-                0x0000000000000000       0xfc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
+                0x0000000000000000       0xfc /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
  .text._wrapup_reent
-                0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
+                0x0000000000000000       0x74 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
- .debug_frame   0x0000000000000000       0x68 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
- COMMON         0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a(lib_a-reent.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
- .text          0x0000000000000000      0x41c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000000       0x68 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+ COMMON         0x0000000000000000        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000      0x41c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
- .text          0x0000000000000000      0x49c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_addsubdf3.o)
+ .text          0x0000000000000000      0x49c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
- .text          0x0000000000000000      0x144 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_muldivdf3.o)
+ .text          0x0000000000000000      0x144 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
- .text          0x0000000000000000       0x5c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_cmpdf2.o)
+ .text          0x0000000000000000       0x5c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
- .text          0x0000000000000000       0x3c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_arm_fixdfsi.o)
+ .text          0x0000000000000000       0x3c /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
- .text          0x0000000000000000       0x84 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000       0x84 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
- .debug_frame   0x0000000000000000       0x54 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
- .text          0x0000000000000000      0x4f0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .ARM.extab     0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .ARM.exidx     0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000000000       0x54 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(bpabi.o)
+ .text          0x0000000000000000      0x4f0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
- .text          0x0000000000000000      0x488 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .ARM.extab     0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .ARM.exidx     0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divdi3.o)
+ .text          0x0000000000000000      0x488 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
- .text          0x0000000000000000       0x48 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
- .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
- .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
+                0x0000000000000000       0x30 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x38 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000       0x48 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
+                0x0000000000000000       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_clzsi2.o)
 
 Memory Configuration
 
@@ -635,6 +642,10 @@ Linker script and memory map
 LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
 LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
 LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+LOAD ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
 LOAD ../applications/main.o
 LOAD ../applications/freertos_hooks.o
 
@@ -644,316 +655,458 @@ LOAD ../applications/freertos_hooks.o
  .text          0x0000000080000000       0xb4 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
                 0x0000000080000000                Entry
 
-.text           0x00000000800000b4     0x26c8
-                0x00000000800000b4                . = ALIGN (0x4)
+.text           0x00000000800000c0     0x39e8
+                0x00000000800000c0                . = ALIGN (0x4)
  *(.text*)
  .text.vListInitialise
-                0x00000000800000b4       0x24 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                0x00000000800000b4                vListInitialise
+                0x00000000800000c0       0x24 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x00000000800000c0                vListInitialise
  .text.vListInitialiseItem
-                0x00000000800000d8        0xc ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                0x00000000800000d8                vListInitialiseItem
+                0x00000000800000e4        0xc ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x00000000800000e4                vListInitialiseItem
  .text.vListInsertEnd
-                0x00000000800000e4       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                0x00000000800000e4                vListInsertEnd
+                0x00000000800000f0       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x00000000800000f0                vListInsertEnd
  .text.vListInsert
-                0x000000008000010c       0x60 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                0x000000008000010c                vListInsert
+                0x0000000080000118       0x60 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x0000000080000118                vListInsert
  .text.uxListRemove
-                0x000000008000016c       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                0x000000008000016c                uxListRemove
+                0x0000000080000178       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x0000000080000178                uxListRemove
  .text.prvCopyDataToQueue
-                0x00000000800001a4       0xdc ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x00000000800001b0       0xdc ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.prvNotifyQueueSetContainer
-                0x0000000080000280       0xc4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x000000008000028c       0xc4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.prvCopyDataFromQueue
-                0x0000000080000344       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000350       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.prvUnlockQueue
-                0x000000008000038c      0x12c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000398      0x12c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .text.xQueueGenericReset
-                0x00000000800004b8       0xd8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
-                0x00000000800004b8                xQueueGenericReset
+                0x00000000800004c4       0xd8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x00000000800004c4                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x0000000080000590       0xa8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
-                0x0000000080000590                xQueueGenericCreate
+                0x000000008000059c       0xa8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x000000008000059c                xQueueGenericCreate
  .text.xQueueGenericSend
-                0x0000000080000638      0x2c4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
-                0x0000000080000638                xQueueGenericSend
+                0x0000000080000644      0x2c4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000644                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000000080000908      0x1a8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000908                xQueueGenericSendFromISR
  .text.xQueueGenericReceive
-                0x00000000800008fc      0x2ec ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
-                0x00000000800008fc                xQueueGenericReceive
+                0x0000000080000ab0      0x2ec ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000ab0                xQueueGenericReceive
+ .text.vQueueAddToRegistry
+                0x0000000080000d9c       0x4c ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000d9c                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0000000080000de8       0x78 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080000de8                vQueueWaitForMessageRestricted
  .text.prvResetNextTaskUnblockTime
-                0x0000000080000be8       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080000e60       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.prvAddCurrentTaskToDelayedList
-                0x0000000080000c28       0x88 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080000ea0       0x88 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .text.xTaskGenericCreate
-                0x0000000080000cb0      0x354 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080000cb0                xTaskGenericCreate
+                0x0000000080000f28      0x354 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080000f28                xTaskGenericCreate
  .text.vTaskStartScheduler
-                0x0000000080001004       0xc0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001004                vTaskStartScheduler
+                0x000000008000127c       0xc0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x000000008000127c                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x00000000800010c4       0x18 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x00000000800010c4                vTaskSuspendAll
+                0x000000008000133c       0x18 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x000000008000133c                vTaskSuspendAll
  .text.xTaskGetTickCount
-                0x00000000800010dc       0x30 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x00000000800010dc                xTaskGetTickCount
+                0x0000000080001354       0x30 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001354                xTaskGetTickCount
  .text.xTaskIncrementTick
-                0x000000008000110c      0x234 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x000000008000110c                xTaskIncrementTick
+                0x0000000080001384      0x234 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001384                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x0000000080001340      0x1a4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001340                xTaskResumeAll
+                0x00000000800015b8      0x1a4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x00000000800015b8                xTaskResumeAll
  .text.vTaskDelayUntil
-                0x00000000800014e4      0x13c ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x00000000800014e4                vTaskDelayUntil
+                0x000000008000175c      0x13c ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x000000008000175c                vTaskDelayUntil
  .text.prvIdleTask
-                0x0000000080001620      0x118 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001898      0x118 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .text.vTaskSwitchContext
+                0x00000000800019b0      0x184 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x00000000800019b0                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0000000080001738       0xd0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001738                vTaskPlaceOnEventList
+                0x0000000080001b34       0xd0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001b34                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x0000000080001c04       0xa8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001c04                vTaskPlaceOnEventListRestricted
  .text.xTaskRemoveFromEventList
-                0x0000000080001808       0xf0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001808                xTaskRemoveFromEventList
+                0x0000000080001cac       0xf0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001cac                xTaskRemoveFromEventList
  .text.vTaskSetTimeOutState
-                0x00000000800018f8       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x00000000800018f8                vTaskSetTimeOutState
+                0x0000000080001d9c       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001d9c                vTaskSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000080001940       0xe4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001940                xTaskCheckForTimeOut
+                0x0000000080001de4       0xe4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001de4                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000080001a24       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001a24                vTaskMissedYield
+                0x0000000080001ec8       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001ec8                vTaskMissedYield
  .text.xTaskGetCurrentTaskHandle
-                0x0000000080001a38       0x10 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001a38                xTaskGetCurrentTaskHandle
+                0x0000000080001edc       0x10 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001edc                xTaskGetCurrentTaskHandle
  .text.xTaskGetSchedulerState
-                0x0000000080001a48       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001a48                xTaskGetSchedulerState
+                0x0000000080001eec       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001eec                xTaskGetSchedulerState
  .text.vTaskPriorityInherit
-                0x0000000080001a80       0xf0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001a80                vTaskPriorityInherit
+                0x0000000080001f24       0xf0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080001f24                vTaskPriorityInherit
  .text.vTaskPriorityDisinherit
-                0x0000000080001b70       0xc0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x0000000080001b70                vTaskPriorityDisinherit
+                0x0000000080002014       0xc0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080002014                vTaskPriorityDisinherit
+ .text.prvCheckForValidListAndQueue
+                0x00000000800020d4       0xd8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.prvInsertTimerInActiveList
+                0x00000000800021ac       0x78 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.xTimerCreateTimerTask
+                0x0000000080002224       0x98 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+                0x0000000080002224                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x00000000800022bc       0xb8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+                0x00000000800022bc                xTimerGenericCommand
+ .text.prvSwitchTimerLists
+                0x0000000080002374       0xfc ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.prvTimerTask
+                0x0000000080002470      0x378 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .text.pxPortInitialiseStack
+                0x00000000800027e8       0xcc ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800027e8                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x00000000800028b4       0xb4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800028b4                xPortStartScheduler
+ .text.vPortExitCritical
+                0x0000000080002968       0x60 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080002968                vPortExitCritical
+ .text.vPortClearInterruptMask
+                0x00000000800029c8       0x3c ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800029c8                vPortClearInterruptMask
+ .text.ulPortSetInterruptMask
+                0x0000000080002a04       0x48 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080002a04                ulPortSetInterruptMask
+ .text.vPortEnterCritical
+                0x0000000080002a4c       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080002a4c                vPortEnterCritical
+ .text.vPortValidateInterruptPriority
+                0x0000000080002a74       0x68 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080002a74                vPortValidateInterruptPriority
+ *fill*         0x0000000080002adc        0x4 
+ .text          0x0000000080002ae0      0x250 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+                0x0000000080002ae0                FreeRTOS_SWI_Handler
+                0x0000000080002b2c                vPortRestoreTaskContext
+                0x0000000080002b90                FreeRTOS_IRQ_Handler
+ .text.pvPortMalloc
+                0x0000000080002d30       0xb0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+                0x0000000080002d30                pvPortMalloc
+ .text.vPortFree
+                0x0000000080002de0       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+                0x0000000080002de0                vPortFree
+ .text.xPortGetFreeHeapSize
+                0x0000000080002e08       0x18 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+                0x0000000080002e08                xPortGetFreeHeapSize
  .text.prvQueueSendTask
-                0x0000000080001c30       0x60 ../applications/main.o
+                0x0000000080002e20       0x60 ../applications/main.o
  .text.prvQueueReceiveTask
-                0x0000000080001c90       0x40 ../applications/main.o
+                0x0000000080002e80       0x40 ../applications/main.o
  .text.startup.main
-                0x0000000080001cd0       0xb0 ../applications/main.o
-                0x0000000080001cd0                main
+                0x0000000080002ec0       0xb0 ../applications/main.o
+                0x0000000080002ec0                main
+ .text.vApplicationMallocFailedHook
+                0x0000000080002f70       0x14 ../applications/freertos_hooks.o
+                0x0000000080002f70                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x0000000080002f84       0x14 ../applications/freertos_hooks.o
+                0x0000000080002f84                vApplicationStackOverflowHook
  .text.vApplicationIdleHook
-                0x0000000080001d80       0x24 ../applications/freertos_hooks.o
-                0x0000000080001d80                vApplicationIdleHook
+                0x0000000080002f98       0x24 ../applications/freertos_hooks.o
+                0x0000000080002f98                vApplicationIdleHook
  .text.vAssertCalled
-                0x0000000080001da4       0x4c ../applications/freertos_hooks.o
-                0x0000000080001da4                vAssertCalled
+                0x0000000080002fbc       0x4c ../applications/freertos_hooks.o
+                0x0000000080002fbc                vAssertCalled
  .text.vApplicationTickHook
-                0x0000000080001df0       0x2c ../applications/freertos_hooks.o
-                0x0000000080001df0                vApplicationTickHook
- .text.memcpy   0x0000000080001e1c       0x28 ../applications/freertos_hooks.o
-                0x0000000080001e1c                memcpy
- .text.memset   0x0000000080001e44       0x24 ../applications/freertos_hooks.o
-                0x0000000080001e44                memset
+                0x0000000080003008        0x4 ../applications/freertos_hooks.o
+                0x0000000080003008                vApplicationTickHook
+ .text.memcpy   0x000000008000300c       0x28 ../applications/freertos_hooks.o
+                0x000000008000300c                memcpy
+ .text.memset   0x0000000080003034       0x24 ../applications/freertos_hooks.o
+                0x0000000080003034                memset
+ .text.memcmp   0x0000000080003058       0x54 ../applications/freertos_hooks.o
+                0x0000000080003058                memcmp
  .text.start_boot
-                0x0000000080001e68       0x60 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
-                0x0000000080001e68                start_boot
- .text          0x0000000080001ec8      0x488 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
-                0x0000000080001ec8                CP15ICacheDisable
-                0x0000000080001ee4                CP15DCacheDisable
-                0x0000000080001f00                CP15ICacheEnable
-                0x0000000080001f10                CP15DCacheEnable
-                0x0000000080001f20                CP15DCacheFlush
-                0x0000000080001fb4                CP15DCacheClean
-                0x0000000080002048                CP15DCacheCleanFlush
-                0x00000000800020dc                CP15ICacheFlush
-                0x00000000800020ec                CP15DCacheCleanBuff
-                0x0000000080002140                CP15DCacheCleanFlushBuff
-                0x0000000080002194                CP15DCacheFlushBuff
-                0x00000000800021f8                CP15ICacheFlushBuff
-                0x000000008000224c                CP15Ttb0Set
-                0x0000000080002258                CP15TlbInvalidate
-                0x0000000080002264                CP15MMUDisable
-                0x000000008000227c                CP15MMUEnable
-                0x0000000080002290                CP15VectorBaseAddrSet
-                0x000000008000229c                CP15BranchPredictorInvalidate
-                0x00000000800022a8                CP15BranchPredictionEnable
-                0x00000000800022b8                CP15BranchPredictionDisable
-                0x00000000800022c8                CP15DomainAccessClientSet
-                0x00000000800022d8                CP15ControlFeatureDisable
-                0x00000000800022ec                CP15ControlFeatureEnable
-                0x0000000080002300                CP15TtbCtlTtb0Config
-                0x0000000080002310                CP15AuxControlFeatureEnable
-                0x0000000080002324                CP15AuxControlFeatureDisable
-                0x0000000080002338                CP15MainIdPrimPartNumGet
- .text          0x0000000080002350       0xf0 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
-                0x0000000080002350                SVC_Handler
-                0x0000000080002378                IRQHandler
-                0x0000000080002424                FIQHandler
-                0x0000000080002428                UndefInstHandler
-                0x0000000080002428                AbortHandler
- .text          0x0000000080002440      0x114 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
-                0x0000000080002440                __udivsi3
-                0x0000000080002440                __aeabi_uidiv
-                0x0000000080002534                __aeabi_uidivmod
- .text          0x0000000080002554      0x148 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
-                0x0000000080002554                __aeabi_idiv
-                0x0000000080002554                __divsi3
-                0x000000008000267c                __aeabi_idivmod
- .text          0x000000008000269c        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
-                0x000000008000269c                __aeabi_ldiv0
-                0x000000008000269c                __aeabi_idiv0
+                0x00000000800030ac       0x60 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x00000000800030ac                start_boot
+ .text          0x000000008000310c      0x488 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+                0x000000008000310c                CP15ICacheDisable
+                0x0000000080003128                CP15DCacheDisable
+                0x0000000080003144                CP15ICacheEnable
+                0x0000000080003154                CP15DCacheEnable
+                0x0000000080003164                CP15DCacheFlush
+                0x00000000800031f8                CP15DCacheClean
+                0x000000008000328c                CP15DCacheCleanFlush
+                0x0000000080003320                CP15ICacheFlush
+                0x0000000080003330                CP15DCacheCleanBuff
+                0x0000000080003384                CP15DCacheCleanFlushBuff
+                0x00000000800033d8                CP15DCacheFlushBuff
+                0x000000008000343c                CP15ICacheFlushBuff
+                0x0000000080003490                CP15Ttb0Set
+                0x000000008000349c                CP15TlbInvalidate
+                0x00000000800034a8                CP15MMUDisable
+                0x00000000800034c0                CP15MMUEnable
+                0x00000000800034d4                CP15VectorBaseAddrSet
+                0x00000000800034e0                CP15BranchPredictorInvalidate
+                0x00000000800034ec                CP15BranchPredictionEnable
+                0x00000000800034fc                CP15BranchPredictionDisable
+                0x000000008000350c                CP15DomainAccessClientSet
+                0x000000008000351c                CP15ControlFeatureDisable
+                0x0000000080003530                CP15ControlFeatureEnable
+                0x0000000080003544                CP15TtbCtlTtb0Config
+                0x0000000080003554                CP15AuxControlFeatureEnable
+                0x0000000080003568                CP15AuxControlFeatureDisable
+                0x000000008000357c                CP15MainIdPrimPartNumGet
+ .text          0x0000000080003594       0xf0 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+                0x0000000080003594                SVC_Handler
+                0x00000000800035bc                IRQHandler
+                0x0000000080003668                FIQHandler
+                0x000000008000366c                UndefInstHandler
+                0x000000008000366c                AbortHandler
+ .text          0x0000000080003684      0x114 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x0000000080003684                __udivsi3
+                0x0000000080003684                __aeabi_uidiv
+                0x0000000080003778                __aeabi_uidivmod
+ .text          0x0000000080003798      0x148 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x0000000080003798                __aeabi_idiv
+                0x0000000080003798                __divsi3
+                0x00000000800038c0                __aeabi_idivmod
+ .text          0x00000000800038e0        0x4 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x00000000800038e0                __aeabi_ldiv0
+                0x00000000800038e0                __aeabi_idiv0
  *(.rodata*)
  .rodata.str1.4
-                0x00000000800026a0       0x2d ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x00000000800038e4       0x2d ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
                                          0x30 (size before relaxing)
- *fill*         0x00000000800026cd        0x3 
+ *fill*         0x0000000080003911        0x3 
  .rodata.str1.4
-                0x00000000800026d0       0x6b ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003914       0x6b ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
                                          0x6c (size before relaxing)
- *fill*         0x000000008000273b        0x1 
+ *fill*         0x000000008000397f        0x1 
+ .rodata.ucExpectedStackBytes.6880
+                0x0000000080003980       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .rodata.str1.4
-                0x000000008000273c        0x8 ../applications/main.o
+                0x0000000080003994       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .rodata.ulICCEOIR
+                0x00000000800039d4        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800039d4                ulICCEOIR
+ .rodata.ulICCIAR
+                0x00000000800039d8        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800039d8                ulICCIAR
+ .rodata.ulMaxAPIPriorityMask
+                0x00000000800039dc        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x00000000800039dc                ulMaxAPIPriorityMask
+ .rodata.str1.4
+                0x00000000800039e0       0x41 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                                         0x44 (size before relaxing)
+ *fill*         0x0000000080003a21        0x3 
+ .rodata.ulICCPMR
+                0x0000000080003a24        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080003a24                ulICCPMR
+ .rodata.str1.4
+                0x0000000080003a28       0x3f ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+                                         0x40 (size before relaxing)
+ *fill*         0x0000000080003a67        0x1 
+ .rodata.str1.4
+                0x0000000080003a68        0x8 ../applications/main.o
  .rodata.vecTbl
-                0x0000000080002744       0x38 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x0000000080003a70       0x38 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
 
-.glue_7         0x000000008000277c        0x0
+.glue_7         0x0000000080003aa8        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x000000008000277c        0x0
+.glue_7t        0x0000000080003aa8        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x000000008000277c        0x0
+.vfp11_veneer   0x0000000080003aa8        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x000000008000277c        0x0
+.v4_bx          0x0000000080003aa8        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x000000008000277c        0x0
+.iplt           0x0000000080003aa8        0x0
  .iplt          0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
 
-.rel.dyn        0x000000008000277c        0x0
+.rel.dyn        0x0000000080003aa8        0x0
  .rel.iplt      0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
 
-.data           0x000000008000277c        0x4
-                0x000000008000277c                . = ALIGN (0x4)
+.data           0x0000000080003aa8        0x8
+                0x0000000080003aa8                . = ALIGN (0x4)
  *(.data*)
  .data.xNextTaskUnblockTime
-                0x000000008000277c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003aa8        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .data.ulCriticalNesting
+                0x0000000080003aac        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080003aac                ulCriticalNesting
 
-.igot.plt       0x0000000080002780        0x0
+.igot.plt       0x0000000080003ab0        0x0
  .igot.plt      0x0000000000000000        0x0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
 
-.bss            0x0000000080002780      0x328
-                0x0000000080002780                . = ALIGN (0x4)
-                0x0000000080002780                _bss_start = .
+.bss            0x0000000080003ab0    0x103bc
+                0x0000000080003ab0                . = ALIGN (0x4)
+                0x0000000080003ab0                _bss_start = .
  *(.bss*)
  .bss.xPendingReadyList
-                0x0000000080002780       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ab0       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.uxTopReadyPriority
-                0x0000000080002794        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ac4        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.uxTasksDeleted
-                0x0000000080002798        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ac8        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xTickCount
-                0x000000008000279c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003acc        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.pxReadyTasksLists
-                0x00000000800027a0       0x8c ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ad0       0x8c ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .bss.ulTotalRunTime
+                0x0000000080003b5c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xTasksWaitingTermination
-                0x000000008000282c       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b60       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.pxDelayedTaskList
-                0x0000000080002840        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b74        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xSchedulerRunning
-                0x0000000080002844        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b78        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .bss.ulTaskSwitchedInTime
+                0x0000000080003b7c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.uxTaskNumber
-                0x0000000080002848        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b80        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.pxCurrentTCB
-                0x000000008000284c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                0x000000008000284c                pxCurrentTCB
+                0x0000000080003b84        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b84                pxCurrentTCB
  .bss.uxPendedTicks
-                0x0000000080002850        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b88        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xSuspendedTaskList
-                0x0000000080002854       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003b8c       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.uxCurrentNumberOfTasks
-                0x0000000080002868        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ba0        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xDelayedTaskList1
-                0x000000008000286c       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003ba4       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xDelayedTaskList2
-                0x0000000080002880       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003bb8       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xYieldPending
-                0x0000000080002894        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003bcc        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.uxSchedulerSuspended
-                0x0000000080002898        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003bd0        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.pxOverflowDelayedTaskList
-                0x000000008000289c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x0000000080003bd4        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .bss.xNumOfOverflows
-                0x00000000800028a0        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .bss.xQueue    0x00000000800028a4        0x4 ../applications/main.o
+                0x0000000080003bd8        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .bss.pxCurrentTimerList
+                0x0000000080003bdc        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.xActiveTimerList1
+                0x0000000080003be0       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.xActiveTimerList2
+                0x0000000080003bf4       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.xLastTime.5997
+                0x0000000080003c08        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.xTimerQueue
+                0x0000000080003c0c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.pxOverflowTimerList
+                0x0000000080003c10        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .bss.ulPortTaskHasFPUContext
+                0x0000000080003c14        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080003c14                ulPortTaskHasFPUContext
+ .bss.ulPortInterruptNesting
+                0x0000000080003c18        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080003c18                ulPortInterruptNesting
+ .bss.ulPortYieldRequired
+                0x0000000080003c1c        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                0x0000000080003c1c                ulPortYieldRequired
+ .bss.xNextFreeByte
+                0x0000000080003c20        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.ucHeap    0x0000000080003c24    0x10000 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.pucAlignedHeap.5756
+                0x0000000080013c24        0x4 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.xQueue    0x0000000080013c28        0x4 ../applications/main.o
  *(COMMON)
- COMMON         0x00000000800028a8      0x200 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x00000000800028a8                fnRAMVectors
-                0x0000000080002aa8                _bss_end = .
+ COMMON         0x0000000080013c2c       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x0000000080013c2c                xQueueRegistry
+ COMMON         0x0000000080013c6c      0x200 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x0000000080013c6c                fnRAMVectors
+                0x0000000080013e6c                _bss_end = .
 
-.heap           0x0000000080002aa8      0x800
-                0x0000000080002aa8                . = ALIGN (0x4)
-                0x0000000080002aa8                __end__ = .
-                0x0000000080002aa8                end = __end__
-                0x0000000080002aa8                __HeapBase = __end__
+.heap           0x0000000080013e6c      0x800
+                0x0000000080013e6c                . = ALIGN (0x4)
+                0x0000000080013e6c                __end__ = .
+                0x0000000080013e6c                end = __end__
+                0x0000000080013e6c                __HeapBase = __end__
  *(.heap*)
-                0x00000000800032a8                . = (. + 0x800)
- *fill*         0x0000000080002aa8      0x800 
-                0x00000000800032a8                __HeapLimit = .
+                0x000000008001466c                . = (. + 0x800)
+ *fill*         0x0000000080013e6c      0x800 
+                0x000000008001466c                __HeapLimit = .
 
-.stack          0x00000000800032a8  0x7fffff8
-                0x00000000800032a8                . = ALIGN (0x4)
-                0x00000000800032a8                __StackLimit = .
+.stack          0x000000008001466c  0x7fffff8
+                0x000000008001466c                . = ALIGN (0x4)
+                0x000000008001466c                __StackLimit = .
  *(.stack*)
-                0x00000000880032a0                . = (. + 0x7fffff8)
- *fill*         0x00000000800032a8  0x7fffff8 
-                0x00000000880032a0                __StackTop = .
-                0x00000000880032a0                _stack = __StackTop
+                0x0000000088014664                . = (. + 0x7fffff8)
+ *fill*         0x000000008001466c  0x7fffff8 
+                0x0000000088014664                __StackTop = .
+                0x0000000088014664                _stack = __StackTop
 LOAD ../binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a
 LOAD ../binary/armv7a/gcc/utils/Release/libutils.a
 LOAD ../binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a
 LOAD ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a
-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/arm-none-eabi/lib//libc.a
-LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a
+LOAD /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a
 OUTPUT(app.out elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x4642
+.debug_info     0x0000000000000000     0x5a07
  .debug_info    0x0000000000000000      0x28d ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_info    0x000000000000028d     0x16aa ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_info    0x0000000000001937     0x2024 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_info    0x000000000000395b      0x261 ../applications/main.o
- .debug_info    0x0000000000003bbc      0x33d ../applications/freertos_hooks.o
- .debug_info    0x0000000000003ef9       0x9a ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_info    0x0000000000003f93      0x10b ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_info    0x000000000000409e       0x9a ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_info    0x0000000000004138       0xad ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_info    0x00000000000041e5      0x45d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_info    0x000000000000395b      0xe79 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_info    0x00000000000047d4      0x345 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_info    0x0000000000004b19       0xb1 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+ .debug_info    0x0000000000004bca      0x1a7 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_info    0x0000000000004d71      0x261 ../applications/main.o
+ .debug_info    0x0000000000004fd2      0x2ec ../applications/freertos_hooks.o
+ .debug_info    0x00000000000052be       0x9a ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_info    0x0000000000005358      0x10b ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_info    0x0000000000005463       0x9a ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_info    0x00000000000054fd       0xad ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_info    0x00000000000055aa      0x45d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_abbrev   0x0000000000000000      0xc5c
+.debug_abbrev   0x0000000000000000     0x1159
  .debug_abbrev  0x0000000000000000       0xdc ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_abbrev  0x00000000000000dc      0x2e7 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_abbrev  0x00000000000003c3      0x35d ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_abbrev  0x0000000000000720       0xdb ../applications/main.o
- .debug_abbrev  0x00000000000007fb      0x16c ../applications/freertos_hooks.o
- .debug_abbrev  0x0000000000000967       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_abbrev  0x000000000000097b       0xe6 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_abbrev  0x0000000000000a61       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_abbrev  0x0000000000000a75       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_abbrev  0x0000000000000a89      0x1d3 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_abbrev  0x0000000000000720      0x26a ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_abbrev  0x000000000000098a      0x151 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_abbrev  0x0000000000000adb       0x14 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+ .debug_abbrev  0x0000000000000aef      0x137 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_abbrev  0x0000000000000c26       0xdb ../applications/main.o
+ .debug_abbrev  0x0000000000000d01      0x163 ../applications/freertos_hooks.o
+ .debug_abbrev  0x0000000000000e64       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_abbrev  0x0000000000000e78       0xe6 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_abbrev  0x0000000000000f5e       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x0000000000000f72       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_abbrev  0x0000000000000f86      0x1d3 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_loc      0x0000000000000000     0x2ab9
+.debug_loc      0x0000000000000000     0x35b3
  .debug_loc     0x0000000000000000       0x69 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_loc     0x0000000000000069     0x10b7 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_loc     0x0000000000001120     0x1518 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_loc     0x0000000000002638       0x42 ../applications/main.o
- .debug_loc     0x000000000000267a      0x2c3 ../applications/freertos_hooks.o
- .debug_loc     0x000000000000293d       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_loc     0x0000000000002951      0x168 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_loc     0x0000000000002638      0x93f ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_loc     0x0000000000002f77      0x108 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_loc     0x000000000000307f       0xb3 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_loc     0x0000000000003132       0x42 ../applications/main.o
+ .debug_loc     0x0000000000003174      0x2c3 ../applications/freertos_hooks.o
+ .debug_loc     0x0000000000003437       0x14 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_loc     0x000000000000344b      0x168 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_aranges  0x0000000000000000      0x4d8
+.debug_aranges  0x0000000000000000      0x608
  .debug_aranges
                 0x0000000000000000       0x40 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_aranges
@@ -961,55 +1114,76 @@ OUTPUT(app.out elf32-littlearm)
  .debug_aranges
                 0x0000000000000158      0x168 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .debug_aranges
-                0x00000000000002c0       0x30 ../applications/main.o
+                0x00000000000002c0       0x70 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
  .debug_aranges
-                0x00000000000002f0       0x58 ../applications/freertos_hooks.o
+                0x0000000000000330       0x68 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
  .debug_aranges
-                0x0000000000000348       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+                0x0000000000000398       0x20 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
  .debug_aranges
-                0x0000000000000368       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x00000000000003b8       0x38 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
  .debug_aranges
-                0x0000000000000388       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+                0x00000000000003f0       0x30 ../applications/main.o
  .debug_aranges
-                0x00000000000003a8       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+                0x0000000000000420       0x58 ../applications/freertos_hooks.o
  .debug_aranges
-                0x00000000000003c8      0x110 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x0000000000000478       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_aranges
+                0x0000000000000498       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_aranges
+                0x00000000000004b8       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_aranges
+                0x00000000000004d8       0x20 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_aranges
+                0x00000000000004f8      0x110 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_ranges   0x0000000000000000      0x708
+.debug_ranges   0x0000000000000000      0x8a8
  .debug_ranges  0x0000000000000000       0x30 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_ranges  0x0000000000000030      0x150 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_ranges  0x0000000000000180      0x3e0 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_ranges  0x0000000000000560       0x20 ../applications/main.o
- .debug_ranges  0x0000000000000580       0x48 ../applications/freertos_hooks.o
- .debug_ranges  0x00000000000005c8       0x10 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_ranges  0x00000000000005d8      0x130 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_ranges  0x0000000000000560      0x120 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_ranges  0x0000000000000680       0x58 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_ranges  0x00000000000006d8       0x28 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_ranges  0x0000000000000700       0x20 ../applications/main.o
+ .debug_ranges  0x0000000000000720       0x48 ../applications/freertos_hooks.o
+ .debug_ranges  0x0000000000000768       0x10 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_ranges  0x0000000000000778      0x130 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_line     0x0000000000000000     0x1c10
+.debug_line     0x0000000000000000     0x23a5
  .debug_line    0x0000000000000000      0x191 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_line    0x0000000000000191      0x735 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_line    0x00000000000008c6      0xafc ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_line    0x00000000000013c2      0x125 ../applications/main.o
- .debug_line    0x00000000000014e7      0x16c ../applications/freertos_hooks.o
- .debug_line    0x0000000000001653       0x89 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_line    0x00000000000016dc       0x67 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_line    0x0000000000001743      0x180 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_line    0x00000000000018c3       0xaf ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_line    0x0000000000001972      0x29e ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_line    0x00000000000013c2      0x37f ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_line    0x0000000000001741      0x21d ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_line    0x000000000000195e       0xb5 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
+ .debug_line    0x0000000000001a13      0x137 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_line    0x0000000000001b4a      0x135 ../applications/main.o
+ .debug_line    0x0000000000001c7f      0x169 ../applications/freertos_hooks.o
+ .debug_line    0x0000000000001de8       0x89 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_line    0x0000000000001e71       0x67 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_line    0x0000000000001ed8      0x180 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_line    0x0000000000002058       0xaf ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_line    0x0000000000002107      0x29e ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
 
-.debug_str      0x0000000000000000     0x18ad
- .debug_str     0x0000000000000000      0x2c8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
-                                        0x30c (size before relaxing)
- .debug_str     0x00000000000002c8      0x5d8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
-                                        0x886 (size before relaxing)
- .debug_str     0x00000000000008a0      0x9f8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
-                                        0xd05 (size before relaxing)
- .debug_str     0x0000000000001298       0x6d ../applications/main.o
-                                        0x25a (size before relaxing)
- .debug_str     0x0000000000001305      0x15a ../applications/freertos_hooks.o
-                                        0x326 (size before relaxing)
- .debug_str     0x000000000000145f      0x197 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+.debug_str      0x0000000000000000     0x1f76
+ .debug_str     0x0000000000000000      0x2e6 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                                        0x32a (size before relaxing)
+ .debug_str     0x00000000000002e6      0x5d8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                                        0x8a4 (size before relaxing)
+ .debug_str     0x00000000000008be      0x9f8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                                        0xd23 (size before relaxing)
+ .debug_str     0x00000000000012b6      0x464 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+                                        0x768 (size before relaxing)
+ .debug_str     0x000000000000171a      0x1d2 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+                                        0x3d9 (size before relaxing)
+ .debug_str     0x00000000000018ec       0xd7 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+                                        0x2a5 (size before relaxing)
+ .debug_str     0x00000000000019c3       0x7d ../applications/main.o
+                                        0x288 (size before relaxing)
+ .debug_str     0x0000000000001a40       0xe8 ../applications/freertos_hooks.o
+                                        0x2ef (size before relaxing)
+ .debug_str     0x0000000000001b28      0x197 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
                                         0x1bb (size before relaxing)
- .debug_str     0x00000000000015f6      0x2b7 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_str     0x0000000000001cbf      0x2b7 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
                                         0x406 (size before relaxing)
 
 .comment        0x0000000000000000       0x70
@@ -1017,6 +1191,9 @@ OUTPUT(app.out elf32-littlearm)
                                          0x71 (size before relaxing)
  .comment       0x0000000000000000       0x71 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .comment       0x0000000000000000       0x71 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+ .comment       0x0000000000000000       0x71 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .comment       0x0000000000000000       0x71 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .comment       0x0000000000000000       0x71 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
  .comment       0x0000000000000000       0x71 ../applications/main.o
  .comment       0x0000000000000000       0x71 ../applications/freertos_hooks.o
  .comment       0x0000000000000000       0x71 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
@@ -1025,39 +1202,50 @@ OUTPUT(app.out elf32-littlearm)
 .ARM.attributes
                 0x0000000000000000       0x3b
  .ARM.attributes
-                0x0000000000000000       0x37 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
+                0x0000000000000000       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .ARM.attributes
-                0x0000000000000037       0x37 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
+                0x000000000000003d       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .ARM.attributes
-                0x000000000000006e       0x37 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
+                0x000000000000007a       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
  .ARM.attributes
-                0x00000000000000a5       0x37 ../applications/main.o
+                0x00000000000000b7       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
  .ARM.attributes
-                0x00000000000000dc       0x37 ../applications/freertos_hooks.o
+                0x00000000000000f4       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
  .ARM.attributes
-                0x0000000000000113       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+                0x0000000000000131       0x23 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/portASM.o
  .ARM.attributes
-                0x0000000000000136       0x3d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x0000000000000154       0x3d ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
  .ARM.attributes
-                0x0000000000000173       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+                0x0000000000000191       0x3d ../applications/main.o
  .ARM.attributes
-                0x0000000000000196       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+                0x00000000000001ce       0x3d ../applications/freertos_hooks.o
  .ARM.attributes
-                0x00000000000001b9       0x3d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x000000000000020b       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
  .ARM.attributes
-                0x00000000000001f6       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x000000000000022e       0x3d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
  .ARM.attributes
-                0x000000000000020e       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x000000000000026b       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
  .ARM.attributes
-                0x0000000000000226       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x000000000000028e       0x23 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .ARM.attributes
+                0x00000000000002b1       0x3d ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .ARM.attributes
+                0x00000000000002ee       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000306       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000031e       0x18 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
 
-.debug_frame    0x0000000000000000      0xc18
+.debug_frame    0x0000000000000000      0xe8c
  .debug_frame   0x0000000000000000       0x68 ../../FreeRTOSV8.0.0/FreeRTOS/Source/list.o
  .debug_frame   0x0000000000000068      0x364 ../../FreeRTOSV8.0.0/FreeRTOS/Source/queue.o
  .debug_frame   0x00000000000003cc      0x480 ../../FreeRTOSV8.0.0/FreeRTOS/Source/tasks.o
- .debug_frame   0x000000000000084c       0x6c ../applications/main.o
- .debug_frame   0x00000000000008b8       0xc0 ../applications/freertos_hooks.o
- .debug_frame   0x0000000000000978       0x28 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_frame   0x00000000000009a0      0x238 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_frame   0x0000000000000bd8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000000bf8       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4/lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .debug_frame   0x000000000000084c      0x144 ../../FreeRTOSV8.0.0/FreeRTOS/Source/timers.o
+ .debug_frame   0x0000000000000990       0xd8 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/GCC/ARM_CA8/port.o
+ .debug_frame   0x0000000000000a68       0x60 ../../FreeRTOSV8.0.0/FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_frame   0x0000000000000ac8       0x6c ../applications/main.o
+ .debug_frame   0x0000000000000b34       0xb8 ../applications/freertos_hooks.o
+ .debug_frame   0x0000000000000bec       0x28 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_frame   0x0000000000000c14      0x238 ../binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_frame   0x0000000000000e4c       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000e6c       0x20 /opt/linaro/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)

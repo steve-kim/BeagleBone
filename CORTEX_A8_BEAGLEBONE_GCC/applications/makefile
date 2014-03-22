@@ -38,11 +38,13 @@ EVM=beaglebone
 
 TARGET_MODE=Release
 
-FREERTOS_SOURCE=${FREERTOS_SRC}/list.o \
+FREERTOS_SOURCE= ${FREERTOS_SRC}/list.o \
                 ${FREERTOS_SRC}/queue.o \
                 ${FREERTOS_SRC}/tasks.o \
+                ${FREERTOS_SRC}/timers.o \
                 ${FREERTOS_PORT_SRC}/port.o \
-                ${FREERTOS_PORT_SRC}/portASM.o 
+		${FREERTOS_PORT_SRC}/portASM.o \
+		${FREERTOS_HEAP_SRC}/heap_1.o 
 
 DEMO_SOURCE=${ROOT}/applications/main.o \
             ${ROOT}/applications/freertos_hooks.o
@@ -61,6 +63,7 @@ app: ${FREERTOS_SOURCE} ${DEMO_SOURCE}
 %.o: %.c
 	$(CC) $(CFLAGS) $(IPATH) $< -o $@
 
-portASM.o: portASM.S
+%.o: %.S
 	$(CC) $(CFLAGS) $(IPATH) $< -o $@
+
 
